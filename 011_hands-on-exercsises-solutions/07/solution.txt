@@ -1,0 +1,11 @@
+absolute
+www.google.com
+
+relative
+../pic/dog.jpg
+
+absolute
+/pic/dog.jpg
+
+relative
+chapter07/index.html
