@@ -1,0 +1,17 @@
+p {
+    border: 1px solid black;
+}
+
+div {
+    border: 2px solid #000;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.border-me {
+    border: 30px solid black;
+}
+
+.bb {
+    box-sizing: border-box;
+}

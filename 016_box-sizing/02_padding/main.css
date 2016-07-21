@@ -1,0 +1,17 @@
+p {
+    border: 1px solid black;
+}
+
+div {
+    border: 2px solid #000;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.pad-me {
+    padding: 50px;
+}
+
+.bb {
+    box-sizing: border-box;
+}
