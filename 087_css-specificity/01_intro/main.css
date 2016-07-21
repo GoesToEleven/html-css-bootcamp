@@ -1,0 +1,27 @@
+* {
+    /*border: 1px solid red;*/
+}
+
+html, body, div {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 1.5vw;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border: 20px groove blue;
+}
+
+li {
+    margin: 10px;
+}

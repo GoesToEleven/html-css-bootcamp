@@ -1,0 +1,7 @@
+body {
+    font-size: 36px;
+}
+
+li:nth-child(3) {
+    color: red;
+}

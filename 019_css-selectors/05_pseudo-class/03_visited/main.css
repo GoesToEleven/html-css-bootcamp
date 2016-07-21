@@ -1,0 +1,12 @@
+body {
+    font-size: 36px;
+    text-align: center;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: slategray;
+}

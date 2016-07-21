@@ -1,0 +1,15 @@
+html {
+    font-size: 62.5%;
+}
+
+article {
+    font-size: 2rem;
+}
+
+section {
+    font-size: 2rem;
+}
+
+h2:first-child {
+    color: red;
+}

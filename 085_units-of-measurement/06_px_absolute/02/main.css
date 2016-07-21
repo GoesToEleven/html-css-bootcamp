@@ -1,0 +1,17 @@
+html {
+    /*font-size: 62.5%;*/
+    font-size: 10px;
+}
+
+article {
+    /*font-size: 2rem;*/
+    /*font-size: 2em;*/
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+p {
+    /*margin: 1em;*/
+    margin: 20px;
+    border: 1px solid gray;
+}

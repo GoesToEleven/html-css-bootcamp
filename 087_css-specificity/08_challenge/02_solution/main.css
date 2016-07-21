@@ -1,0 +1,79 @@
+*  {
+    /*border: 1px solid red;*/
+}
+
+html, body {
+    height: 100%;
+}
+
+html, body, main, div, small, footer {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.5vw;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 98%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+}
+
+div {
+    height: 600px;
+    padding: 0 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div:nth-child(1n+2) {
+    border-left: 1px solid black;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+small {
+    padding: 5px 10px;
+}
+
+#html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rslts {
+    width: 60%;
+    border-top: 4px double black;
+    border-bottom: 4px double black;
+    text-align: center;
+}
+
+/* example */
+
+.favorite {
+    color: red;
+}
+
+ul#summer-drinks li {
+    color: blue;
+}

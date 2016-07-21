@@ -1,0 +1,13 @@
+html {
+    font-size: 10px;
+}
+
+article {
+    font-size: 2vw;
+    border: 2px solid black;
+}
+
+p {
+    margin: 2vw;
+    border: 1px solid gray;
+}

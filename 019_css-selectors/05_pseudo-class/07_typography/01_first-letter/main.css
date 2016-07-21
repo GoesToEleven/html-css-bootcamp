@@ -1,0 +1,15 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+p {
+    margin: 20px;
+}
+
+p::first-letter {
+    font-family: cursive;
+    font-size: 36px;
+    line-height: .5;
+}

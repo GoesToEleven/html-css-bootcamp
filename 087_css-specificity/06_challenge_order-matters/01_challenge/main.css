@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+}
+
+html, body, div, p {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 2vw;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+}
+
+div {
+    padding: 0 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div:last-child {
+    border-left: 1px solid black;
+}
+

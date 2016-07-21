@@ -1,0 +1,10 @@
+li:nth-child(3n+2) {
+    color: red;
+}
+
+/*
+Try changing the selector to select each of the following:
+8, 18, 28, 38, ...
+9, 12, 15, ..., 39, ...
+3, 12, 21, 30, 39, ...
+*/

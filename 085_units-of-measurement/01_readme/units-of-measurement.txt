@@ -1,0 +1,10 @@
+Units of Measurement:
+-relative to parent: %, em
+-relative to root: rem
+-relative to viewport: vh, vw, vmin, vmax
+-absolute: px,
+
+SOURCES:
+https://developer.mozilla.org/en-US/docs/Web/CSS/length
+https://developer.mozilla.org/en-US/docs/Web/CSS/percentage
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-size

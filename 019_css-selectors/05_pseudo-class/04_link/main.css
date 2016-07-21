@@ -1,0 +1,19 @@
+body {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* order matters */
+/* try placing this at the end of these rulesets */
+/* and a:active won't work */
+a:link {
+    color: black;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: slategray;
+}

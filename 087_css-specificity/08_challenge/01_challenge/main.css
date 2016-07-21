@@ -1,0 +1,63 @@
+*  {
+    /*border: 1px solid red;*/
+}
+
+html, body {
+    height: 100%;
+}
+
+html, body, main, div, small, footer {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.5vw;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 98%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+}
+
+div {
+    padding: 0 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#html {
+    width: 60%;
+}
+
+#css {
+    width: 40%;
+}
+
+div:last-child {
+    border-left: 1px solid black;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+small {
+    padding: 5px 10px;
+}
