@@ -53,8 +53,15 @@ input {
     border: 1px solid darkgray;
 }
 
+/* order matters */
+/* Link Visited Hover Active */
+
 [type=submit]:hover {
     background-color: #00FF00;
+}
+
+[type=submit]:active {
+    background-color: fuchsia;
 }
 
 input:required {
