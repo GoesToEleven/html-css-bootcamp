@@ -1,8 +1,9 @@
-* {
-    /*border: 1px solid black;*/
-    /*border: 1px solid transparent;*/
-}
-
+/* DO NOT TRY TO UNDERSTAND ALL OF THIS CODE*/
+/* This code is here to (1) illustrate the :hover and :active pseudo-classes*/
+/* and (2) to show you what you will know how to do soon. */
+/* Throughout this course, I will explain all of the code on this page. */
+/* By the end of this course, you will understand all of the code on this page */
+/* and will be able to create pages like this one. */
 html {
     font-size: 1vw;
 }
@@ -40,6 +41,13 @@ label {
     justify-content: space-between;
     align-items: center;
 }
+
+/* DO NOT TRY TO UNDERSTAND ALL OF THIS CODE*/
+/* This code is here to (1) illustrate the :hover and :active pseudo-classes*/
+/* and (2) to show you what you will know how to do soon. */
+/* Throughout this course, I will explain all of the code on this page. */
+/* By the end of this course, you will understand all of the code on this page */
+/* and will be able to create pages like this one. */
 
 input {
     /*font-size: 2rem;*/
