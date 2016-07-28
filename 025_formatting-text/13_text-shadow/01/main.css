@@ -5,7 +5,7 @@ html, body, h1 {
 }
 
 h1 {
-    font-size: 512px;
+    font-size: 30rem;
     text-shadow: 5px 5px 20px red;
     text-align: center;
 }

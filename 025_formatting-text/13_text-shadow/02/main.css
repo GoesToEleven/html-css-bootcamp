@@ -3,14 +3,14 @@ html {
 }
 
 p {
-    font-size: 48px;
+    font-size: 3rem;
     border: 1px solid black;
     width: 1200px;
     padding: 20px;
 }
 
 h1 {
-    font-size: 120px;
+    font-size: 8rem;
     text-shadow: 3px 3px 1px #c9c9c9;
     border: 3px solid black;
     width: 1300px;
