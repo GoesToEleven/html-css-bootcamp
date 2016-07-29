@@ -1,0 +1,9 @@
+p {
+    width: 80%;
+    font-size: 4rem;
+}
+
+img {
+    width: 800px;
+    border: 4px solid black;
+}

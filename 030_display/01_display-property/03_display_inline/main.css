@@ -1,0 +1,27 @@
+* {
+    border: 1px dashed hotpink;
+}
+
+div {
+    height: 50px;
+    /*width: 100px;*/
+    border: 2px solid black;
+    border-radius: 50px;
+    display: inline;
+}
+
+#one {
+    background-color: #FF0000;
+}
+
+#two {
+    background-color: #0000FF;
+}
+
+#three {
+    background-color: #FFD700;
+}
+
+#four {
+    background-color: #308014;
+}

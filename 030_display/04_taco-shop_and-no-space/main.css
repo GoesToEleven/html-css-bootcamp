@@ -1,0 +1,21 @@
+body {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+nav, main {
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+nav {
+    vertical-align: top;
+    display: inline-block;
+    width: 25%;
+}
+
+main {
+    display: inline-block;
+    width: 75%;
+}

@@ -1,0 +1,12 @@
+div {
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.box2 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+}

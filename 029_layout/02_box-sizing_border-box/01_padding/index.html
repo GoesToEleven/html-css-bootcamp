@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title></title>
+</head>
+<body>
+
+<h1>HERE'S THE PROBLEM:</h1>
+
+<div>
+    <p>no padding</p>
+</div>
+
+<div class="pad-me">
+    <p>padding</p>
+</div>
+
+<h1>HERE'S THE SOLUTION:</h1>
+
+<div class="bb">
+    <p>no padding</p>
+    <p>box-sizing: border-box;</p>
+</div>
+
+<div class="pad-me bb">
+    <p>padding</p>
+    <p>box-sizing: border-box;</p>
+    <p>PADDING & BORDER no longer increase my width</p>
+</div>
+
+</body>
+</html>
