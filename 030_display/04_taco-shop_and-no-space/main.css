@@ -2,6 +2,7 @@ body {
     width: 80%;
     max-width: 700px;
     margin: 0 auto;
+    border: 5px solid green;
 }
 
 nav, main {
