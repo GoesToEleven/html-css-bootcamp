@@ -1,0 +1,20 @@
+/* flex container */
+body {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    /* formatting */
+    height: 700px;
+    border: 5px solid red;
+}
+
+/* flex items */
+div {
+    /* formatting */
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+}

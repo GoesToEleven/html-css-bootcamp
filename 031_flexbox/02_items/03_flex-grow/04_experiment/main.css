@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    border: 2px solid black;
+    height: 100px;
+}
+
+.flex1 {
+    flex-grow: 1;
+}
+
+.flex2 {
+    flex-grow: 2;
+    /*width: 100%;*/
+}
+
+/*
+What if ...
+flex-wrap: wrap
+width: 100%
+*/

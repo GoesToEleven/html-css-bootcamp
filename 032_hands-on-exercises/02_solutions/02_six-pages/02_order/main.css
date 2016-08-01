@@ -1,0 +1,27 @@
+.container {
+    border: 5px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.item {
+    width: 300px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+}
+
+#uno {
+    order: 3;
+}
+
+#dos {
+    order: 1;
+}
+
+#tres {
+    order: 2;
+}

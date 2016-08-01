@@ -1,0 +1,26 @@
+body {
+    display: flex;
+}
+
+div {
+    border: 2px solid black;
+    height: 100px;
+    flex-basis: 200px;
+}
+
+.flex1 {
+    flex-grow: 1;
+}
+
+.flex2 {
+    flex-grow: 2;
+}
+
+/*
+The three div flex items want to be 200px wide.
+
+If the flex container is greater than 600px, flex-grow kicks in.
+
+If the flex container is less than 600px, flex-basis keeps their widths proportional.
+
+*/

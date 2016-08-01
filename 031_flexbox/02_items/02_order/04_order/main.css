@@ -1,0 +1,33 @@
+body {
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*flex-flow: column wrap;*/
+}
+
+div {
+    width: 100px;
+    height: 50px;
+    margin: 1em;
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+    order: 5;
+}
+
+#nn {
+    order: 1;
+}
+
+#mm {
+    order: 2;
+}
+
+#ll {
+    order: 3;
+}
+
+#kk {
+    order: 4;
+}

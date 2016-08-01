@@ -1,0 +1,20 @@
+.container {
+    border: 5px solid red;
+    display: flex;
+}
+
+.item {
+    width: 300px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+    flex: 0 1 auto;
+    /* flex-grow, flex-shrink, flex-basis */
+}
+
+#wahoo {
+    flex: 0 2 auto;
+    /* flex-grow, flex-shrink, flex-basis */
+}
