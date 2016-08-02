@@ -8,10 +8,17 @@ div {
     flex-basis: 33%;
 }
 
+
+/* flex-basis always sets the width */
+/* the three flex-items in this example are always 33% each */
+/* flex-grow & flex-shrink do nothing */
+
 .flex1 {
     flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .flex2 {
     flex-grow: 2;
+    flex-shrink: 8;
 }

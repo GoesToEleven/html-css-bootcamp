@@ -5,27 +5,20 @@ body {
 div {
     border: 2px solid black;
     height: 100px;
-    width: 200px;
+    width: 300px;
     flex-basis: auto;
     /*
-    above two lines same as:
-    flex-basis: 200px;
+    the above two lines are the same as:
+    flex-basis: 300px;
     */
 }
 
 .flex1 {
     flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .flex2 {
-    flex-grow: 2;
+    flex-grow: 8;
+    flex-shrink: 8;
 }
-
-/*
-The three div flex items want to be 200px wide.
-
-If the flex container is greater than 600px, flex-grow kicks in.
-
-If the flex container is less than 600px, flex-basis keeps their widths proportional.
-
-*/

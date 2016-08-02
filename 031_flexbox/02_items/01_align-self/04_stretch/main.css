@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    /* formatting */
+    height: 500px;
+    border: 5px solid red;
+}
+
+div {
+    /* formatting */
+    width: 200px;
+    margin: 1em;
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.hme{
+    height: 100px;
+}
+
+#deviate {
+    align-self: stretch;
+}

@@ -1,15 +1,17 @@
-.container {
-    border: 5px solid red;
+body {
     display: flex;
+    /* formatting */
+    border: 5px solid red;
 }
 
-.item {
+div {
+    flex: 1 1 auto;
+    /* flex-grow, flex-shrink, flex-basis */
+    /* formatting */
     width: 300px;
     height: 100px;
     margin: 1em;
     border: 1px solid red;
     background-color: darkgray;
     text-align: center;
-    flex: 1 1 auto;
-    /* flex-grow, flex-shrink, flex-basis */
 }

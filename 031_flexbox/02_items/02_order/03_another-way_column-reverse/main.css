@@ -1,9 +1,8 @@
 body {
-    border: 5px solid red;
     display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-    /*flex-flow: column wrap;*/
+    flex-flow: column-reverse wrap;
+    /* formatting */
+    border: 5px solid red;
 }
 
 div {
