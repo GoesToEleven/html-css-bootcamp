@@ -1,0 +1,42 @@
+body {
+    border: 1px solid black;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 10px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+section:last-child::after {
+    content: "LESS THAN 599px";
+    color: red;
+    font-weight: bold;
+}
+
+/*GREATER than 600px*/
+@media screen and (min-width:600px) {
+
+    nav {
+        float: left;
+        width: 25%;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    section {
+        margin-left: 25%;
+    }
+
+    section:last-child::after {
+        content: "MORE THAN 599px";
+    }
+}

@@ -1,11 +1,11 @@
-.container {
-    border: 5px solid red;
+body {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-flow: column nowrap;
+    /* formatting */
+    border: 5px solid red;
 }
 
-.item {
+div {
     width: 200px;
     height: 100px;
     margin: 1em;

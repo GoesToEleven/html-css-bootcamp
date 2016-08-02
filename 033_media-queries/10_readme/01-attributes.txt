@@ -1,0 +1,37 @@
+*** ATTRIBUTES ***
+
+*** MEDIA TYPES ***
+
+all
+Suitable for all devices.
+
+print
+Intended for paged material and for documents viewed on screen in print preview mode. Please consult the section on paged media, and the media section of the Getting Started tutorial for information about formatting issues that are specific to paged media.
+
+screen
+Intended primarily for color computer screens.
+
+
+*** MEDIA FEATURES ***
+
+min-width
+any browser width OVER the value defined in the query.
+
+max-width
+any browser width BELOW the value defined in the query.
+
+min-height
+any browser height OVER the value defined in the query.
+
+max-height
+any browser height BELOW the value defined in the query.
+
+*** EXAMPLES ***
+css
+@media screen and (min-width:600px){
+	/* rule sets here */
+}
+
+html
+<link rel="stylesheet" media="screen and (max-width: 599px)" href="main-599-less.css">
+

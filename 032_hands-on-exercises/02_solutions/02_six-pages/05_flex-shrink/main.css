@@ -1,11 +1,13 @@
-.container {
-    border: 5px solid red;
+body {
     display: flex;
     /*flex-direction: row;*/
     /*flex-wrap: nowrap;*/
+    /* formatting */
+    border: 5px solid red;
 }
 
-.item {
+div {
+    /* formatting */
     width: 400px;
     height: 100px;
     margin: 1em;
@@ -14,10 +16,10 @@
     text-align: center;
 }
 
-#paniolo {
+#s1 {
     flex-shrink: 1;
 }
 
-#dahui {
+#s2 {
     flex-shrink: 2;
 }

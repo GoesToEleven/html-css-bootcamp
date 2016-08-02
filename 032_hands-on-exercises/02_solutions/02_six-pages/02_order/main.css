@@ -1,11 +1,12 @@
-.container {
-    border: 5px solid red;
+body {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    /* formatting */
+    border: 5px solid red;
 }
 
-.item {
+div {
+    /* formatting */
     width: 300px;
     height: 100px;
     margin: 1em;

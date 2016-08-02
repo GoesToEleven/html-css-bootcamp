@@ -1,0 +1,17 @@
+body {
+    border: 1px solid black;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+section:last-child::after {
+    content: "LESS THAN 599px";
+    color: red;
+    font-weight: bold;
+}

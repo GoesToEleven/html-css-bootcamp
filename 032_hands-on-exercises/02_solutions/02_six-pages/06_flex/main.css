@@ -1,17 +1,19 @@
-.container {
-    border: 5px solid red;
+body {
     display: flex;
     /*flex-direction: row;*/
     /*flex-wrap: nowrap;*/
+    /* formatting */
+    border: 5px solid red;
 }
 
-.item {
-    width: 300px;
+div {
+    flex: 1 1 auto;
+    /* flex-grow, flex-shrink, flex-basis */
+    /* formatting */
+    width: 400px;
     height: 100px;
     margin: 1em;
     border: 1px solid red;
     background-color: darkgray;
     text-align: center;
-    flex: 1 1 auto;
-    /* flex-grow, flex-shrink, flex-basis */
 }

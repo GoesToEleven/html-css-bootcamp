@@ -1,0 +1,27 @@
+Don't use
+max-device-width
+min-device-width
+
+******************************************************************************************
+
+max-width is the width of the target display area, e.g. the browser.
+
+max-device-width is the width of the device's entire rendering area, i.e. the actual device screen.
+
+If you are using the max-device-width, when you change the size of the browser window on your desktop, the CSS style won't change to different media query setting;
+
+If you are using the max-width, when you change the size of the browser on your desktop, the CSS will change to different media query setting and you might be shown with the styling for mobiles, such as touch-friendly menus.
+
+******************************************************************************************
+
+It is also possible to create queries based on *-device-width; though this practice is strongly discouraged.
+
+The difference is subtle but very important.
+
+min-width is based on the size of the browser window.
+
+min-device-width is based on the size of the screen.
+
+Unfortunately some browsers, including the legacy Android browser may not report the device width properly and instead report the screen size in device pixels instead of the expected viewport width.
+
+In addition, using *-device-width can prevent content from adapting on desktops or other devices that allow windows to be resized because the query is based on the actual device size, not the size of the browser window.

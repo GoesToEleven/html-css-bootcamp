@@ -1,0 +1,11 @@
+http://www.html5rocks.com/
+
+https://www.google.com/nexus/
+
+https://www.google.com
+
+https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns/off-canvas?hl=en
+
+note:
+sites change all the time
+these sites have changed since this was posted

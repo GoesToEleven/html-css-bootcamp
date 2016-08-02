@@ -1,12 +1,14 @@
-.container {
-    border: 5px solid red;
+body {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
+    /* formatting */
+    border: 5px solid red;
 }
 
-.item {
+div {
+    flex-grow: 1;
+    /* formatting */
     width: 200px;
     height: 100px;
     margin: 1em;
