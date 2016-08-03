@@ -1,0 +1,15 @@
+div:first-child {
+    width: 25%;
+}
+
+div:nth-child(2) {
+    width: 75%;
+}
+
+div:nth-child(3), div:nth-child(4) {
+    width: 50%;
+}
+
+div:nth-child(5), div:nth-child(6), div:last-child {
+    width: 33.33%;
+}

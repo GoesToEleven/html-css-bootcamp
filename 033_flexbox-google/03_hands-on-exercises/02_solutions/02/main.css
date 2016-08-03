@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div {
+    width: 100%;
+    height: 125px;
+    text-align: center;
+    line-height: 125px;
+}

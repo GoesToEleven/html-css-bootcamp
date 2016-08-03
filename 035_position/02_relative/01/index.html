@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" href="main.css">
+    <title>Position Relative</title>
+</head>
+<body>
+    <div></div>
+    <div id="one">RELATIVE</div>
+    <div></div>
+</body>
+</html>
+
+<!--
+RELATIVE TO ITSELF
+
+Relative positioning tells the element to move relative to where it would have landed if it just had the default static positioning.
+
+If you give an element relative positioning and tell it to have a "top 10px", it doesn't move down ten pixels from any particular thing — it moves down ten pixels from where it otherwise would have been.
+
+Relative behaves the same as static unless you add some extra properties.
+
+Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element. (learnlayout)
+-->
+
+
+<!--
+With relatively positioned elements, it’s important to know that the box offset properties identify where an element will be moved from given its original position (howe)
+-->
+
+<!--
+What it really means is "relative to itself". If you set "position: relative;" on an element but no other positioning attributes (top, left, bottom or right), it will no effect on it's positioning at all, it will be exactly as it would be if you left it as position: static;
+
+But if you DO give it some other positioning attribute, say, "top: 10px;", it will shift it's position 10 pixels DOWN from where it would NORMALLY be. I'm sure you can imagine, the ability to shift an element around based on it's regular position is pretty useful. I find myself using this to line up form elements many times that have a
+tendency to not want to line up how I want them to. (css-tricks)
+-->

@@ -1,0 +1,71 @@
+Mobile First
+-Build your pages to look good on mobile first
+-Then add in break-points so that your pages work at larger resolutions
+
+Breakpoints based upon content
+-Create your breakpoints based upon your content
+-Have your content look good, and be readable, at different sizes
+
+70 - 80 characters of text per line
+-Classic readability theory suggests that an ideal column should contain 70 to 80 characters per line (about 8 to 10 words in English)
+-When the width of a text block grows past about 10 words, a breakpoint should be considered
+
+Putting media queries in your link tag is the preferred method
+-Allows your code to be more modular and readable
+-Only pulls down the needed code for each page
+
+Use
+min-width
+max-width
+min-height
+max-height
+
+Don’t use
+max-device-width
+min-device-width
+max-device-height
+min-device-height
+
+***********
+EXAMPLES
+***********
+
+html
+<link rel="stylesheet" media="screen and (max-width: 599px)" href="main-599-less.css">
+
+css
+@media screen and (min-width:600px){
+	/* rule sets here */
+}
+
+
+***********
+From Google Web Fundamentals
+***********
+
+Create breakpoints based on content, never on specific devices, products, or brands.
+
+Design for the smallest mobile device first, then progressively enhance the experience as more screen real estate becomes available.
+
+Keep lines of text to a maximum of around 70 or 80 characters. Classic readability theory suggests that an ideal column should contain 70 to 80 characters per line (about 8 to 10 words in English). Thus each time the width of a text block grows past about 10 words, a breakpoint should be considered.
+
+
+***********
+SOURCES
+***********
+
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media
+
+https://developers.google.com/web/fundamentals/design-and-ui/responsive/fundamentals/use-media-queries?hl=en
+
+
+http://www.menucool.com/3613/max-device-width-vs-max-width-Which-one-should-I-use
+
+https://developers.google.com/web/fundamentals/design-and-ui/responsive/fundamentals/use-media-queries?hl=en#a-note-on-min-device-width
+
+
+https://developers.google.com/web/fundamentals/design-and-ui/responsive/fundamentals/how-to-choose-breakpoints?hl=en
+
+
+https://developers.google.com/web/fundamentals/design-and-ui/responsive/?hl=en

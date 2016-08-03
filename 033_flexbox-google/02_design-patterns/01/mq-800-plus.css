@@ -1,0 +1,15 @@
+body {
+    width: 800px;
+}
+
+.c1 {
+    width: 60%;
+}
+
+.c2 {
+    width: 40%;
+}
+
+.c3, .c4, .c5 {
+    width: 33.33%;
+}

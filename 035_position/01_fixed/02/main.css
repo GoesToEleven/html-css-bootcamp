@@ -1,0 +1,32 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    border-radius: 5px;
+}
+
+#one {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    /* formatting */
+    width: 100px;
+    height: 100px;
+    background-color: #547980;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+#two {
+    width: 80%;
+    margin: 0 auto;
+    /* formatting */
+    height: 1500px;
+    background-color: #45ADA8;
+    border: 5px dashed red;
+}
+

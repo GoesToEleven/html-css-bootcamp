@@ -1,0 +1,27 @@
+div:first-child {
+background-color: #9d97c9;
+}
+
+div:nth-child(2) {
+background-color: #fdffcd;
+}
+
+div:nth-child(3) {
+background-color: #cdffd5;
+}
+
+div:nth-child(4) {
+background-color: #ada0a2;
+}
+
+div:nth-child(5) {
+background-color: #d29ecf;
+}
+
+div:nth-child(6) {
+background-color: #ccecff;
+}
+
+div:last-child {
+background-color: #c89884;
+}

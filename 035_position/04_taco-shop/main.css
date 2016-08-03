@@ -1,0 +1,27 @@
+html {
+    margin: 15px;
+    border: 2px solid green;
+}
+
+body {
+    position: relative;
+    /* formatting */
+    border: 1px solid black;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+nav, main {
+    border: 1px solid red;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+main {
+    margin-left: 200px;
+}

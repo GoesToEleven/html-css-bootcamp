@@ -1,0 +1,22 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main, nav {
+    border: 2px solid red;
+    box-sizing: border-box;
+    background-color: tomato;
+}
+
+nav {
+    float: left;
+    width: 25%;
+    height: 400px;
+}
+
+main {
+    float: right;
+    width: 74%;
+    height: 400px;
+}

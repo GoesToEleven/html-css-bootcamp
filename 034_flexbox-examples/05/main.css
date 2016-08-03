@@ -1,0 +1,6 @@
+header, div, nav, article, aside, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

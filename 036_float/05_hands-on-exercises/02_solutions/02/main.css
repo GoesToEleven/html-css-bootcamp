@@ -1,0 +1,12 @@
+div {
+    width: 80%;
+    border: 4px solid black;
+    margin: 0 auto;
+}
+
+img {
+    float: right;
+    /* formatting */
+    margin: 20px;
+    border: 4px solid red;
+}

@@ -1,0 +1,19 @@
+html, body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* formatting */
+    border: 10px solid red;
+}
+
+p {
+    font-size: 4rem;
+}

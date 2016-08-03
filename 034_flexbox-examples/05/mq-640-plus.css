@@ -1,0 +1,16 @@
+div {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+article {
+    width: 60%
+}
+
+nav {
+    width: 20%
+}
+
+aside {
+    width: 20%
+}

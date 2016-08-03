@@ -1,0 +1,42 @@
+nav, ul, li, main, section {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    /* formatting */
+    width: 80%;
+    margin: 20px auto;
+}
+
+nav {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    padding: 10px;
+}
+
+nav, main {
+    border: 2px solid red;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 10px;
+}

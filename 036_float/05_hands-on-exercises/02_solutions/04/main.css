@@ -1,0 +1,29 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 4px solid green;
+}
+
+div {
+    width: 250px;
+    height: 125px;
+    background-color: tomato;
+    border: 4px solid red;
+    margin: 20px;
+}
+
+.floated {
+    float: left;
+}
+
+.cleared {
+    width: 90%;
+    clear: both;
+    /* formatting */
+    height: 40px;
+}

@@ -1,0 +1,21 @@
+body {
+    position: relative;
+    /* formatting */
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#left {
+    position: absolute;
+    width: 200px;
+    /* formatting */
+    height: 400px;
+    border: 2px solid red;
+}
+
+#right {
+    margin-left: 200px;
+    /* formatting */
+    height: 400px;
+    border: 2px solid black;
+}

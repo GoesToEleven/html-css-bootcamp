@@ -1,0 +1,45 @@
+html, body, header, nav, main, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main, footer {
+    border-radius: 5px;
+}
+
+body {
+    margin: 15px;
+}
+
+header {
+    height: 50px;
+    background-color: #F38630;
+    margin-bottom: 10px;
+}
+
+nav {
+    float: left;
+    width: 24%;
+    /* formatting */
+    height: 300px;
+    margin-bottom: 10px;
+    background-color: #A7DBD8;
+}
+
+main {
+    float: right;
+    width: 74%;
+    /* formatting */
+    height: 300px;
+    margin-bottom: 10px;
+    background-color: #E0E4CC;
+}
+
+footer {
+    clear: both;
+    /* formatting */
+    height: 50px;
+    background-color: #69D2E7;
+}

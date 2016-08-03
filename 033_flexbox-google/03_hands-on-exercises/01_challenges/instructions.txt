@@ -1,0 +1,10 @@
+(1)
+Create a page that uses Google's design pattern of setting the flex container to "flex-flow: row wrap;" and setting the width of the flex item(s) that you want on one row to a combined value of 100%. Remember, if you only want one flex item on a row, make sure that one item's width is set to 100%. Use 7 flex items on your page. Give each item the content of 001, 002, 003, ..., 007, respectively.
+
+(2)
+Using the page you built in the previous example, add two media queries. At each break-point, change your layout by changing how much width each item is taking up.
+
+(3)
+Using the page you built in the previous example, use the flex property of "order" to change the order in which the items are displayed. You may do this for any, or all, break-points. Adjust the widths of the items as you deem necessary.
+
+(4) Give each of the flex items a background image and make sure it covers the space taken up by the item.

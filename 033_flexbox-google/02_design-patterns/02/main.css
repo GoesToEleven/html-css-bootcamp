@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    /* formatting */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.c1, .c2, .c3 {
+    width: 100%;
+    /* formatting */
+    min-height: 150px;
+}

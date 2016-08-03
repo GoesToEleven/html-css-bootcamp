@@ -1,0 +1,19 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 4px solid red;
+    background-color: tomato;
+}
+
+#relative {
+    position: relative;
+    top: 20px;
+    left: 40px;
+}

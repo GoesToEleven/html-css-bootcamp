@@ -1,0 +1,9 @@
+For each of the "index.html" pages that follow:
+
+- open the page
+
+- look at the content between the body tags
+
+- write the appropriate css with media-queries to make the content true
+
+- put your media-queries in separate style sheets and have the media query determined by your link tag in your html

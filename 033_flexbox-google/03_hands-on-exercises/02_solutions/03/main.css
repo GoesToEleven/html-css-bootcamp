@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div {
+    width: 100%;
+    order: 7;
+    /* formatting */
+    height: 125px;
+    text-align: center;
+    line-height: 125px;
+}

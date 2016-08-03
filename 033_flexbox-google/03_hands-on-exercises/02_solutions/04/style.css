@@ -1,0 +1,32 @@
+div {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div:first-child {
+    background-image: url("../../../../000_img/pup.jpg");
+}
+
+div:nth-child(2) {
+    background-image: url("../../../../000_img/pup.jpg");
+}
+
+div:nth-child(3) {
+    background-image: url("../../../../000_img/pup.jpg");
+}
+
+div:nth-child(4) {
+    background-image: url("../../../../000_img/pup.jpg");
+}
+
+div:nth-child(5) {
+    background-image: url("../../../../000_img/pup.jpg");
+}
+
+div:nth-child(6) {
+    background-image: url("../../../../000_img/pup.jpg");
+}
+
+div:last-child {
+    background-image: url("../../../../000_img/pup.jpg");
+}

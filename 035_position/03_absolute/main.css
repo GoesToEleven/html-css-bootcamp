@@ -1,0 +1,31 @@
+html {
+    border: 2px solid blue;
+}
+
+body {
+    border: 2px solid green;
+}
+
+div {
+    border: 2px solid red;
+    color: #fff;
+}
+
+#one {
+    position: relative;
+    /*top: 100px;*/
+    /* formatting */
+    width: 600px;
+    height: 400px;
+    background-color: #bcbbbb;
+}
+
+#two {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    /* formatting */
+    width: 300px;
+    height: 200px;
+    background-color: cadetblue;
+}

@@ -1,0 +1,36 @@
+html, body, nav, li, section {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    /* formatting */
+    border: 1px solid black;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    /* formatting */
+    border: 3px solid blue;
+}
+
+section {
+    width: 100%;
+    /* formatting */
+    border: 3px solid green;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+}
