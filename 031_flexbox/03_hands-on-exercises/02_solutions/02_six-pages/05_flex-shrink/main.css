@@ -16,7 +16,7 @@ div {
     text-align: center;
 }
 
-#s1 {
+.class {
     flex-shrink: 1;
 }
 

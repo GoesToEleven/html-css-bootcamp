@@ -1,6 +1,5 @@
 body {
     display: flex;
-    flex-flow: row nowrap;
     /* formatting */
     border: 5px solid red;
 }
@@ -8,7 +7,7 @@ body {
 div {
     flex-basis: auto;
     /* formatting */
-    width: 300px;
+    width: 500px;
     height: 100px;
     margin: 1em;
     border: 1px solid red;

@@ -1,4 +1,4 @@
-For each of the "index.html" pages that follow:
+For each of the six html pages that follow:
 
 - open the page
 

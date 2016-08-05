@@ -1,5 +1,6 @@
-html, body, nav, li, section {
+nav, ul, li, main, section {
     padding: 0;
+    border: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -8,29 +9,36 @@ body {
     display: flex;
     flex-flow: row wrap;
     /* formatting */
-    border: 1px solid black;
-    max-width: 700px;
-    margin: 0 auto;
+    width: 80%;
+    margin: 20px auto;
+    border: 4px solid rgba(255, 101, 69, 0.4);
+
 }
 
 nav {
     width: 100%;
-    /* formatting */
-    border: 3px solid blue;
 }
 
-section {
+main {
     width: 100%;
-    /* formatting */
-    border: 3px solid green;
+    padding: 10px;
+}
+
+nav, main {
+    border: 2px solid red;
 }
 
 ul {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 li {
     list-style: none;
-    margin: 5px;
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 10px;
 }
