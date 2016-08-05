@@ -1,3 +1,3 @@
-Create eight pages which rearrange the code in index.html by changing the properties of the flex container. Upload your code to Github.
+Create eight pages which rearrange the code in index.html by changing the properties of the flex container.
 
-Create six pages with each page demonstrating one of the properties which can be set on a flex item. Upload your code to Github.
+Create six pages with each page demonstrating one of the properties which can be set on a flex item.

@@ -2,7 +2,8 @@
 body {
     display: flex;
     flex-flow: row wrap;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     /* formatting */
     height: 700px;
     border: 5px solid red;

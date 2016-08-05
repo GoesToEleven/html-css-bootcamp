@@ -14,7 +14,7 @@ div {
 }
 
 .flex2 {
-    flex-grow: 2;
+    flex-grow: 8;
     flex-shrink: 8;
 }
 

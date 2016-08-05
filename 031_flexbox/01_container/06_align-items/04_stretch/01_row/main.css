@@ -12,7 +12,7 @@ body {
 div {
     /* formatting */
     width: 200px;
-    height: 100px;
+    /*height: 100px;*/
     margin: 1em;
     border: 1px solid red;
     background-color: darkgray;

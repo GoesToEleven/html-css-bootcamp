@@ -5,11 +5,11 @@ body {
 div {
     border: 2px solid black;
     height: 100px;
-    width: 300px;
+    width: 400px;
     flex-basis: auto;
     /*
     the above two lines are the same as:
-    flex-basis: 300px;
+    flex-basis: 400px;
     */
 }
 
