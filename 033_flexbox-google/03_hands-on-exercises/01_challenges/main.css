@@ -1,0 +1,13 @@
+html {
+    font-size: 2rem;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 4px solid black;
+}
+
+li {
+    margin-bottom: 2rem;
+}

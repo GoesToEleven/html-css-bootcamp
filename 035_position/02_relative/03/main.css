@@ -11,4 +11,9 @@ div {
 
 #one {
     position: relative;
+    right: 10px;
+}
+
+#one {
+    position: static;
 }

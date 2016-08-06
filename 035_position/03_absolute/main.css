@@ -3,7 +3,9 @@ html {
 }
 
 body {
+    width: 40%;
     border: 2px solid green;
+    /*position: relative;*/
 }
 
 div {
@@ -12,6 +14,8 @@ div {
 }
 
 #one {
+    /* comment out position: relative */
+    /* absolute is positioned off html element */
     position: relative;
     /*top: 100px;*/
     /* formatting */
