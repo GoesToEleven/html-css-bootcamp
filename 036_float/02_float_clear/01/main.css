@@ -10,3 +10,7 @@ div {
 section {
     border: 2px solid blue;
 }
+
+#hanh {
+    clear: both;
+}

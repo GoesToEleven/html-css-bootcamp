@@ -13,5 +13,5 @@ div {
 }
 
 .after-box {
-    clear: left;
+    clear: both;
 }

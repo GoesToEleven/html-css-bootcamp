@@ -11,8 +11,6 @@ nav, main {
 nav {
     float: left;
     width: 25%;
-    /* formatting */
-    vertical-align: top;
 }
 
 main {
@@ -22,4 +20,5 @@ main {
 
 article {
     clear: both;
+    border: 9px solid red;
 }
