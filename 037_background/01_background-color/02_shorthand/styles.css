@@ -4,7 +4,7 @@ body {
     align-items: center;
     /* formatting */
     background: red;
-    height: 700px;
+    height: 100vh;
 }
 
 h1 {

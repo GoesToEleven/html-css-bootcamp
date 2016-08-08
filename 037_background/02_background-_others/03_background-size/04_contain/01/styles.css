@@ -1,5 +1,6 @@
 body {
+    /*border: 1px solid hotpink;*/
     background-image: url("01.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: contain;
 }
