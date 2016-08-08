@@ -1,0 +1,3 @@
+https://developers.google.com/speed/docs/insights/ConfigureViewport
+
+https://developers.google.com/web/fundamentals/design-and-ui/responsive/fundamentals/set-the-viewport?hl=en

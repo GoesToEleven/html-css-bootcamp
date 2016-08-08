@@ -1,0 +1,14 @@
+* {
+    /* Disable font boosting */
+    max-height: 1000000px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: none;
+}
+
+div {
+    width: 500px;
+    height: 333px;
+    border: 6px solid red;
+    background-color: tomato;
+    box-sizing: border-box;
+}
