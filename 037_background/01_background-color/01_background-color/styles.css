@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    background-color: red;
+    height: 700px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 20rem;
+}
