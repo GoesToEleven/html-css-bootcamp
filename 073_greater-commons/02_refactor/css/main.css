@@ -1,0 +1,30 @@
+/** {*/
+    /*border: 1px solid deeppink;*/
+/*}*/
+
+html {
+    font-size: 62.5%;
+}
+
+html, body {
+    height: 100%;
+}
+
+html, body, main, section, header, footer, nav, div, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#464646;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-size: cover;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}

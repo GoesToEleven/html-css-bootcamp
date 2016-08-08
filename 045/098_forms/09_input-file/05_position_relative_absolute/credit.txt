@@ -1,0 +1,5 @@
+Thank you to ...
+
+http://damien.antipa.at/blog/2014/02/26/how-to-style-a-html-file-input/
+
+... for the inspiration.

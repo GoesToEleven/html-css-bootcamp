@@ -1,0 +1,39 @@
+html {
+    font-size: 4vw;
+}
+
+html, body, p, form, input {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 10px groove #00C957;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+input[type=file] {
+    background: pink;
+    color: #ffffff;
+    font-size: 30px;
+    border: 2px solid red;
+}

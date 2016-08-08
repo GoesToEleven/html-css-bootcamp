@@ -1,0 +1,66 @@
+body {
+    background-image: url(../images/g_s_03_five.jpg);
+}
+
+header {
+    width: 100%;
+    justify-content: space-between;
+}
+
+section {
+    width: 100%;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.sn-text {
+    padding: .5rem 0;
+}
+
+.sn-btn {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    border: 1px solid white;
+    border-radius: .4rem;
+}
+
+.sn-btn:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: #d3d3d3;
+    margin: 2rem 0 1em 0;
+}
+
+.nav-btn {
+    padding: .8rem 2rem;
+    border: none;
+    border-radius: .4rem;
+    background: rgba(255,255,255,0);
+    text-align: center;
+    cursor: pointer;
+    min-width: 120px;
+}
+
+.nav-btn:hover {
+    background: rgba(255,255,255,0.2);
+    cursor: pointer;
+}

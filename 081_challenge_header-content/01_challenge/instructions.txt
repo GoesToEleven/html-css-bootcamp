@@ -1,0 +1,5 @@
+Using the webpage you created in the previous challenge, add two red boxes to the header area to the top of the page which remains fixed as we scroll the page.
+
+Put one red box on the left and one on the right.
+
+In a future challenege, we will add more content to this header area, but don't add any more content to it now.

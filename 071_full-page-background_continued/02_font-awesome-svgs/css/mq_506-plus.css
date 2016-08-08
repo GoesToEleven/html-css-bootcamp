@@ -1,0 +1,32 @@
+body {
+    background-image: url("../img/background-photo.jpg")
+}
+
+.top-right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 20px;
+}
+
+header {
+    justify-content: space-between;
+}
+
+.t-r-nav-svg {
+    margin-left: 31px;
+}
+
+.top-right-nav-item {
+    fill: white;
+}
+
+.top-right-nav-item:hover {
+    fill: #cafaea;
+}
+
+.mobile-bottom-nav {
+    display: none;
+}

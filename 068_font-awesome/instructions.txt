@@ -1,0 +1,17 @@
+understand the license
+
+Font Awesome is fully open source and is GPL friendly. You can use it for commercial projects, open source projects, or really just about whatever you want.
+https://fortawesome.github.io/Font-Awesome/license/
+
+
+download font awesome
+
+place font awesome folder into the directory structure of your project
+
+delete these folders:
+-less
+-scss
+
+add this to your html file
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+

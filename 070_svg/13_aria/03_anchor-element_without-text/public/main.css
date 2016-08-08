@@ -1,0 +1,35 @@
+
+html, body, a, svg {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    border: 8px solid green;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid black;
+}
+
+
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid blue;
+}
+
+svg {
+    border: 8px solid yellow;
+}

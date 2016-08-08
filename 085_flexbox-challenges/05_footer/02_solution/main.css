@@ -1,0 +1,121 @@
+* {
+    /* for debugging */
+    /*border: 1px solid hotpink;*/
+}
+
+html {
+    font-size: 1vw;
+    color: #86969C;
+}
+
+html, body, div, footer, span, button {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body, #atf {
+    height: 100%;
+}
+
+#atf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* for debugging */
+    /*border: 20px solid green;*/
+}
+
+h1 {
+    font-size: 7rem;
+    text-align: center;
+}
+
+
+/* footer is 100% width */
+footer {
+    /* arrange child elements */
+    display: flex;
+    justify-content: center;
+    /* for debugging */
+    /*border: 20px solid red;*/
+}
+
+/* #top-border is 90% width */
+#top-border {
+    /* format */
+    width: 95%;
+    height: 12rem;
+    border-top: 2px solid #86969C;
+    /* arrange child elements */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* for debugging */
+    /*border: 20px solid red;*/
+}
+
+#ftr-spnr, #ftr-btns {
+    /* arrange immediate direct children*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bring away from outer edges */
+    margin: 0 6rem;
+    /* format */
+    font-size: 4rem;
+    /* for debugging */
+    /*border: 4px solid red;*/
+}
+
+span {
+    margin-left: 1rem;
+}
+
+button {
+    /* format */
+    font-size: inherit;
+    border-radius: 4px;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+#reset {
+    color: #4EBBE4;
+    background-color: white;
+}
+
+#save {
+    color: white;
+    background-color: #4EBBE4;
+    border: 1px solid #16A2D7;
+    margin-left: 1rem;
+}
+
+
+/* SPINNER */
+
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.icon-spinner {
+    /* animation */
+    animation-name: spinner;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    /*animation-delay: 0s;*/
+    animation-iteration-count: infinite;
+    /*animation-direction: normal;*/
+    /*animation-fill-mode: none;*/
+    /*animation-play-state: running;*/
+}
+
+@keyframes spinner {
+    0% { transform:rotate(0deg); }
+    100%   { transform:rotate(360deg);}
+}

@@ -1,0 +1,8 @@
+div {
+    width: 600px;
+    height: 600px;
+    border: 20px ridge orange;
+    background-image: url("01.png");
+    background-repeat: no-repeat;
+    background-position: 300px 10px;
+}

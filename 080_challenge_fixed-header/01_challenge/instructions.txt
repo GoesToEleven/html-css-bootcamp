@@ -1,0 +1,7 @@
+Using the webpage you created in the previous challenge, add a header area to the top of the page which will remain fixed as we scroll the page.
+
+This header area should be about 50 - 100 px in height.
+
+In a future challenege, we will add content to this header area, but don't add content to it now.
+
+You may need to refactor your code so that your HTML uses different elements in different areas.

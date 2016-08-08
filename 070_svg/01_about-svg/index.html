@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html {
+            font-size: 20px;
+        }
+
+        strong {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<svg version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     width="300"
+     height="200">
+
+    <rect width="100%" height="100%" fill="red"/>
+
+    <circle cx="150" cy="100" r="80" fill="green"/>
+
+    <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
+
+</svg>
+
+<ul>
+    <li>svg is XML
+        <ul>
+            <li>svg is XML describing an image</li>
+            <li>XML is case sensitive.</li>
+            <li>You must close all tags.</li>
+            <li>Attributes must be inside quotes.</li>
+            <li>XML header lines
+                <ul>
+                    <li>Example:
+                        <ul>
+                            <li>&lt;?xml version="1.0" encoding="utf-8"?&gt;</li>
+                        </ul>
+                    </li>
+                    <li><strong>should be removed</strong> when you are embedding an SVG in an HTML page or another SVG</li>
+                    <li>Well-formed XML documents contain only one prolog. So they should be removed if you are
+                        embedding one SVG inside another. See: <a
+                                href="http://www.w3.org/TR/2008/REC-xml-20081126/#dt-wellformed">this for more info</a>
+                    </li>
+                    <li>When embedding an SVG inside an HTML file, you could keep the prolog lines. The HTML parser in
+                        the browser will ignore them. But given they serve no purpose, it is my advice that you "should"
+                        remove them to make your document smaller - and more readable. :)
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>The <code>&lt;svg&gt;</code> element is a root element.</li>
+    <li>A Doctype Declaration (DTD) should be left off - leads to more problems than it solves.
+        <ul>
+            <li>Don't use this:
+                <ul>
+                    <li><pre>
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+                    </pre>
+                    </li>
+                </ul>
+            </li>
+            <li><strong>Use this:</strong>
+                <ul>
+                    <li><pre>
+&lt;svg version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events"&gt;
+                    </pre>
+                    </li>
+                    <li>"version" and "baseProfile" identify the version of the SVG and should always be used instead of
+                        DTD.
+                    </li>
+                    <li>the last two lines cause errors in webstorm for me so I leave them off with slight reservation
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>The order of rendering of elements matters - later elements are rendered atop previous elements.</li>
+    <li>CSS
+        <ul>
+            <li><strong>Avoid the inline 'style' attribute</strong> where possible
+                <ul>
+                    <li>Not This
+                        <ul>
+                            <li><pre>
+&lt;circle style="fill:red; stroke:blue;" ... /&gt;
+                            </pre>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>But This
+                        <ul>
+                            <li><pre>
+&lt;circle fill="red" stroke="blue" ... /&gt;
+                            </pre>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><strong>Specify units when assigning lengths to properties</strong>
+        <ul>
+            <li>The only way to avoid problems is to always specify a unit when assigning lengths to properties.</li>
+            <li>Happily, in SVG, px units are defined to be equivalent to the units established by the current
+                coordinate system (user units).
+            </li>
+            <li>In other words, wherever you would otherwise have omitted the unit from a length assigned to a property,
+                use the px unit instead.
+            </li>
+            <li>For example, instead of writing:
+                <ul>
+                    <li>
+                        <pre>&lt;text stroke-width="2" style="font-size:20;" ...&gt;</pre>
+                    </li>
+                </ul>
+            </li>
+            <li>write:
+                <ul>
+                    <li>
+                        <pre>&lt;text stroke-width="2px" style="font-size:20px;" ...&gt;</pre>
+                    </li>
+                </ul>
+            </li>
+            <li>According to the SVG 1.1 Property Index, there are <strong>only eight properties</strong> applicable to SVG 1.1 <strong>that accept a length value</strong> - it is these properties that you should be careful to always specify a length for:
+                <ul><strong>
+                    <li>stroke-width</li>
+                    <li>stroke-dashoffset</li>
+                    <li>font</li>
+                    <li>font-size</li>
+                    <li>baseline-shift</li>
+                    <li>kerning</li>
+                    <li>letter-spacing</li>
+                    <li>word-spacing</li>
+                </strong>
+                </ul>
+            </li>
+            <li>MDN does not include px units in the examples that follow. I have not added them to MDN's examples. MDN's example are more recent than jwatt's article. Perhaps this isn't needed anymore? Look to see if the code breaks anywhere to make the determination.</li>
+        </ul>
+    </li>
+
+    <li>file types: .svg & .svgz</li>
+</ul>
+
+<h1>To Read:
+    <br>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Introduction">SVG Introduction</a>
+    <br>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started">Getting Started</a>
+    <br>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Positions">The Grid & Positions</a>
+    <br>
+    <a href="https://jwatt.org/svg/authoring/">SVG Authoring Guidelines</a>
+</h1>
+
+</body>
+</html>

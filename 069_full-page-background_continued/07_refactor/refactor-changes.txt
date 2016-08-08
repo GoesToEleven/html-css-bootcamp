@@ -1,0 +1,12 @@
+"header" to "main"
+"nav" to "header"
+"div" with nav items to "nav"
+added "footer" to contain mobile nav items in footer
+
+updated css to reflect html changes
+
+added hover to primary button
+
+changed color on top-right-nav hover
+
+added hover to top-left-nav text logo

@@ -1,0 +1,20 @@
+body {
+    background-image: url("01.png");
+    background-repeat: repeat-y;
+}
+
+/*
+repeat:
+tile the image in both directions. This is the default value.
+
+repeat-x:
+tile the image horizontally
+
+repeat-y:
+tile the image vertically
+
+no-repeat:
+don't tile, just show the image once
+#
+
+*/

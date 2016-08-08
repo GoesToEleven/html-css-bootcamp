@@ -1,0 +1,42 @@
+html {
+    font-size: 2vw;
+}
+
+html, body, div, button {
+    padding: 0;
+    /*border: 0;*/
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tabs {
+    width: 40rem;
+    border-bottom: .1rem solid darkgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    flex-grow: 1;
+    font-size: 1.6rem;
+    height: 4.8rem;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    border-bottom: .2rem solid transparent;
+}
+
+button:hover {
+    border-bottom: .2rem solid darkturquoise;
+}
+

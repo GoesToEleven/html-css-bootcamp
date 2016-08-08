@@ -1,0 +1,52 @@
+html, body, svg {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+div {
+    text-align: center;
+    /*border: 2px solid hotpink;*/
+}
+
+svg {
+    padding: 20px;
+}
+
+.icon {
+    /* Allows sizing by changing the icon’s font-size ... em looks to the parent's font then takes a multiple of that ... whatever the font of the container, (the parent) our icon will be a multiple of 1 of that */
+    width: 1em; height: 1em;
+    /* Nice visual alignment for icons alongside text */
+    vertical-align: -0.15em;
+    /* Default path fill = value of the color property ... currentColor takes the color of the parent ... whatever the color of the container (the parent) our icon will be that color */
+    fill: currentColor;
+    /* Paths and strokes that overflow the viewBox can show in IE.
+       If you use normalize.css, it already sets this. */
+    overflow: hidden;
+}
+
+.icon--stroketest {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1px;
+}
+
+.icon--stroketest2 {
+    fill: none;
+    stroke: darkturquoise;
+    stroke-width: 5%;
+}

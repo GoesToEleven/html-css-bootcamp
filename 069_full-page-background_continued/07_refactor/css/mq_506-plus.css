@@ -1,0 +1,28 @@
+body {
+    background-image: url("../img/background-photo.jpg")
+}
+
+.top-right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 20px;
+}
+
+header {
+    justify-content: space-between;
+}
+
+.top-right-nav-item {
+    margin-left: 25px;
+}
+
+.top-right-nav-item:hover {
+    color: #cafaea;
+}
+
+.mobile-bottom-nav {
+    display: none;
+}

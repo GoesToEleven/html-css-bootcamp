@@ -1,0 +1,42 @@
+section {
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    border-bottom-width: 4px;
+    border-bottom-style: groove;
+    border-bottom-color: #4c2b03;
+}
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-group a {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    width: 175px;
+    height: 40px;
+    padding-left: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #4c2b03;
+}
+
+.list-group a:hover {
+    color: blue;
+    background-color: yellow;
+}
+
+.pull-quote {
+    width: 175px;
+}
+
+.animated {
+    font-size: 50px;
+}
+
+.text-danger {
+    color: red;
+}

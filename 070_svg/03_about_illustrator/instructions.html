@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            border: 25px inset deepskyblue;
+        }
+
+        h1, h3, p, img {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin-top: 25px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        img {
+            width: 80%;
+            display: block;
+            margin: 20px auto;
+            border: 4px solid deepskyblue;
+        }
+
+        strong {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>understand the license</h1>
+<p>Font Awesome is fully open source and is GPL friendly. You can use it for commercial projects, open source projects,
+    or
+    really just about whatever you want.</p>
+<a href="https://fortawesome.github.io/Font-Awesome/license/">Read The License</a>
+
+<h1>understand fonts</h1>
+<p>see "fyi_about-fonts" in this folder</p>
+
+<h1>install font awesome OTF (or WOFF) font on your computer</h1>
+<p>on mac:</p>
+<p>double click the OTF font</p>
+<p>choose "install"</p>
+<br>
+<p>google how to do this on other platforms if you're not sure:</p>
+<p>install font windows</p>
+<p>install font linux</p>
+
+<h1>understand raster (bitmap) vs. vector images</h1>
+<p>A vector SVG file is just an XML file</p>
+
+<h1>open adobe illustrator</h1>
+<p>or other vector graphic software like <a href="www.inkscape.org">inscape</a></p>
+
+<h1>copy image from font awesome cheat sheet or other font-awesome page</h1>
+<a href="https://fortawesome.github.io/Font-Awesome/cheatsheet/">font-aweseom cheatsheet</a>
+
+<h1>in illustrator, select text tool, click on screen, paste</h1>
+
+<h1>highlight the thing you pasted</h1>
+
+<h1>change the font</h1>
+<p>font-awesome</p>
+
+<h1>shrink the illustrator "artboard"</h1>
+<p>object / artboards / "fit artwork to bounds"</p>
+
+<h1>save the svg</h1>
+<p>NOT THIS</p>
+<p>File > Export</p>
+<p>you’ll se that you can output PNG, Flash, AutoCAD, TIFF, and Photoshop files, but not SVG files.</p>
+<br>
+<p>NOT THIS</p>
+<p>File > Save for Web</p>
+<p>you’ll notice that you can output PNG, GIF or JPEG files. No trace of SVG.</p>
+<br>
+<p>BUT THIS</p>
+<p>File > Save As</p>
+<p>exports SVG files from Illustrator</p>
+<br>
+<p>“Use Artboards”</p>
+<p>option in the Save As dialog box.</p>
+<p>If you have designed 10 symbols in your Illustrator file, you can use this option to easily create one artboard per
+    symbol, and output 10 SVG files (one per symbol) in a single operation</p>
+
+<h1>best export options for the web</h1>
+<p>Profile:</p>
+<p><strong>SVG 1.1</strong></p>
+<br>
+<p>Fonts:</p>
+<p><strong>Convert to outline</strong></p>
+<br>
+<p>Image location:</p>
+<p><strong>Embed</strong></p>
+<p><strong>preserve illustrator editing capabilities NO</strong></p>
+<br>
+<p>MORE OPTIONS / ADVANCED OPTIONS</p>
+<p>CSS Properties:</p>
+<p><strong>Style Elements</strong></p>
+<br>
+<p><strong>Decimal Places: 1</strong></p>
+<br>
+<p>If they are selectable:</p>
+<p><strong>Output fewer &lt;tspan&gt; elements YES</strong></p>
+<p><strong>Use &lt;textPath&gt; element for Text on Path YES</strong></p>
+<br>
+<p><strong>Reponsive NO</strong></p>
+
+<h1>*****************<br>BEGIN DESCRIPTIONS OF THE ABOVE SETTINGS<br>*****************</h1>
+<h3>Profile - SVG 1.1</h3>
+<p>the version recommended by the W3C.</p>
+<p>SVG Tiny was created a long time ago to support the first generation of mobile devices such as Blackberry phones and PDAs. Today, it doesn’t make sense to export SVG Tiny files if you target smartphones.</p>
+
+<br>
+
+<h3>Fonts - Convert to outline</h3>
+<p>This will turn all of your fonts into SVG drawings. This is what we want.</p>
+<p>If you'd chosen "SVG" then you would be creating an SVG file with SVG fonts included. This leads to the font characters being embedded in your SVG file, and this is more complicated SVG code. You can choose "SVG" and then choose the subsetting "only glyphs used" and only the fonts (glyphs) you want will be embedded.</p>
+<p>For complex fonts like handwriting fonts or splattery fonts which would result in a lot of SVG code to draw them out, choosing "SVG / only glyphs used" will result in a smaller file and is a good option.</p>
+<p>Only choose "only glyphs used" if you don’t plan to dynamically change the text content of your SVG which, if you're doing that, you probably know a whole lot about SVG already.</p>
+
+<br>
+
+<h3>Image location - Embed - preserve illustrator editing capabilities NO</h3>
+<p>If you have bitmap images as part of your SVG file (included in your SVG file), then you can either link to those bitmap images or include the images in the SVG file as base64 encoded data. Font-awesome icons don't have bitmaps in them so it doesn't really matter what we choose here.</p>
+
+<br>
+
+<h3>MORE OPTIONS / ADVANCED OPTIONS</h3>
+
+<br>
+
+<h3>CSS Properties - Style Elements</h3>
+<p>*IF* inside illustrator you have created layers and "graphic styles" and then applied those "graphic styles" to layers, illustrator will export the SVG with CSS already in it styling the drawings in your SVG with appropriate CSS.</p>
+
+<br>
+
+<h3>Decimal Places: 1</h3>
+<p>This determines how many decimal places are used to store x,y coordinates in your drawing. 1 decimal point keeps your SVG file more readable and smaller in size.</p>
+<img src="decimal-places.png" alt="decimal places in SVG files">
+
+<br>
+
+<h3>Output fewer &lt;tspan&gt; elements</h3>
+<h3>Use &lt;textPath&gt; element for Text on Path</h3>
+<p>See <a href="http://creativedroplets.com/export-svg-for-the-web-with-illustrator-cc/">this article</a> for information</p>
+
+<br>
+
+<h3>Responsive NO</h3>
+<p>Setting this to "no" will include the width and height attributes in the SVG tag.</p>
+
+
+<h1>*****************<br>END DESCRIPTIONS<br>*****************</h1>
+
+<h1>put SVG into a file</h1>
+<a href="http://hidpi.brianwoodtraining.com/svg.php">Read this article</a>
+
+<br>
+
+<h1>Primary source for above information</h1>
+<a href="http://creativedroplets.com/export-svg-for-the-web-with-illustrator-cc/">Michaël Chaize's Article</a>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+These challenges come from this article:
+http://www.flexboxpatterns.com/home
+
+You can subscribe to this newsletter to receive articles like that one:
+http://html5weekly.com/issues/236

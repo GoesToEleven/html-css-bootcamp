@@ -1,0 +1,16 @@
+svg {
+    margin: 40px;
+}
+
+#MyRinger {
+    fill: red;
+    stroke: orange;
+    stroke-width: .1px;
+}
+
+
+#MyRinger:hover {
+    fill: orange;
+    stroke: red;
+    stroke-width: .1px;
+}

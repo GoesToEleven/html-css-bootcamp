@@ -1,0 +1,44 @@
+html {
+    font-size: 2vw;
+}
+
+html, body, form, input {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 10px groove #00C957;
+    padding: 20px;
+}
+
+label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#submitobey {
+    border: 1px solid black;
+    font-size: .7rem;
+    background-color: white;
+    padding: .2rem .4rem;
+    border-radius: 5px;
+    margin-top: .8rem;
+}
+
+#submitobey:hover {
+    background-color: #00C957;
+}
+

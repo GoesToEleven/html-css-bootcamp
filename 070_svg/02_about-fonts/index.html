@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Font Formats by Browser Support</h1>
+<img src="01_cross-browser-support.png" alt="font browser support">
+
+<h1>TrueType Font (TTF)</h1>
+<ul>
+    <li>Developed by Apple and Microsoft</li>
+    <li>Response to the PostScript font format</li>
+    <li style="color: blue;">Has long been the most common format for fonts on Mac and Windows operating systems</li>
+    <li>IE8 has no support for TTF</li>
+    <li>IE9 it is only partially supported as the fonts must be set to "installable"</li>
+    <li>most basic type of digital rights management</li>
+    <li>embeddable flag that specifies if the author allows embedding of the font file into PDF files and websites</li>
+    <li>There are some tools that allow modifying this flag, which is one of the major issues about the TTF format.</li>
+    <li>TTF/OTF fonts are not compressed and, as a result, they have a larger file size.</li>
+</ul>
+
+<h1 style="color: blue;">OpenType (OTF)</h1>
+<ul>
+    <li>OpenType is the evolution of TTF</li>
+    <li>joint effort between Adobe and Microsoft</li>
+    <li>contain the screen and printer font data in one component</li>
+    <li>OTF has several exclusive capabilities, including support for multiple platforms and expanded character sets</li>
+    <li style="color: blue;">OTF fonts can be used by Macintosh and Windows operating systems</li>
+    <li>permits storage of up to 65,000 characters</li>
+    <li>additional space gives designers the freedom to include add-ons such as small caps, old style figures, alternate characters and other extras that previously had to be distributed as separate fonts.</li>
+</ul>
+
+<h1>Embedded Open Type (EOT)</h1>
+<ul>
+    <li>EOT fonts were designed by Microsoft to be fonts used on the web</li>
+    <li>EOT format is only supported by Internet Explorer</li>
+</ul>
+
+<h1 style="color: blue;">Web Open Font Format (WOFF)</h1>
+<ul>
+    <li>basically OTF or TTF with metadata and compression supported by all major browsers</li>
+    <li>created to live on the web</li>
+    <li>collaboration by the Mozilla Foundation, Microsoft, and Opera Software</li>
+    <li style="color: blue;">It is a World Wide Web Consortium Recommendation and is clearly the future of font formats</li>
+    <li>WOFF2 is the next generation of WOFF.</li>
+    <li>WOFF2 format offers a 30% average compression gain over the original WOFF</li>
+    <li>Because it still just a recommended upgrade, it does not have the wide support of WOFF</li>
+</ul>
+
+<h1>Scalable Vector Graphics font (SVG)</h1>
+<ul>
+    <li>SVG fonts are defined using the SVG's ‘font’ element</li>
+    <li>These fonts contain the glyph outlines as standard SVG elements and attributes as if they were a single vector object in the SVG image</li>
+    <li>SVG is not great for body text. </li>
+    <li>Since text selection is broken on Safari, Safari Mobile, and Chrome, you cannot select individual characters, words, or any custom selection. You can only select the whole row or paragraph of text.</li>
+    <li>This is the only file format allowed by version 4.1 and below of Safari for iOS</li>
+</ul>
+
+<a href="https://creativemarket.com/blog/2015/11/24/the-missing-guide-to-font-formats">Source: https://creativemarket.com/blog/2015/11/24/the-missing-guide-to-font-formats</a>
+</body>
+</html>

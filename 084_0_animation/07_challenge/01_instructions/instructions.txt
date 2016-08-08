@@ -1,0 +1,1 @@
+Make text grow in size, then shrink, infinitely.

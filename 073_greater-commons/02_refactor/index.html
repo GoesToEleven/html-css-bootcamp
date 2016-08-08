@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Greater Commons</title>
+    <!-- META INFO -->
+    <meta name="description"
+          content="Find course materials, collect course materials, share course materials">
+    <meta name="keywords" content="course reader, course materials">
+    <meta name="author" content="Todd McLeod">
+    <!-- STYLES -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Indie+Flower'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="css/mq_480-less.css">
+    <link rel="stylesheet" media="screen and (min-width: 481px)" href="css/mq_481-plus.css">
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="57x57" href="fav/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="fav/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="fav/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="fav/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="fav/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="fav/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="fav/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="fav/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="fav/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="fav/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="fav/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="fav/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="fav/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="fav/manifest.json">
+    <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="fav/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="fav/mstile-144x144.png">
+    <meta name="msapplication-config" content="fav/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <a class="logo" href="#">#greatercommons</a>
+        <div class="sign-in">
+            <div class="sn-text">Have an account?</div>
+            <a href="#" class="sn-btn">Sign In</a>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="main-h1"><a href="#" class="main-a">Great Classes<br>Start Here</a></h1>
+    </main>
+
+    <section>
+        <h2 class="slug">
+            "GreaterCommons lets you collect, share, and discover class materials.
+            GreaterCommons will help you find great teaching materials including
+            videos, articles, pictures, handouts, presentations and more."
+        </h2>
+        <a href="#" class="btn-great" id="b-g">MAKE MY CLASSES GREAT</a>
+        <nav>
+            <div class="nav-btn" id="create">create</div>
+            <div class="nav-btn" id="become">become</div>
+            <div class="nav-btn" id="find">find</div>
+        </nav>
+    </section>
+<script>
+    var x = document.querySelector(".slug");
+    document.querySelector("#create").addEventListener("mouseover", mouseOver);
+    document.querySelector("#become").addEventListener("mouseover", mouseOver1);
+    document.querySelector("#find").addEventListener("mouseover", mouseOver2);
+    document.querySelector("#create").addEventListener("mouseout", mouseOut);
+    document.querySelector("#become").addEventListener("mouseout", mouseOut);
+    document.querySelector("#find").addEventListener("mouseout", mouseOut);
+    document.querySelector(".sn-btn").addEventListener("click", myAlert);
+
+    function myAlert() {
+        alert("The button will launch the sign-in page.");
+    }
+
+    function mouseOver() {
+        x.innerHTML = "";
+        x.style.maxWidth = "900px";
+        x.innerHTML = "" +
+        "\"Create a collection of resources. PowerPoint presentations, handouts, " +
+        "links to online resources such as videos, articles, and useful websites - GreaterCommons " +
+        "lets you easily collect, organize, and share course materials.\"";
+    }
+    function mouseOver1() {
+        x.innerHTML = "";
+        x.style.maxWidth = "1100px";
+        x.innerHTML = "" +
+        "\"Become a center of influence. Allow others to discover your resources " +
+        "then copy them into their collections. You will be able to see how many " +
+        "classes and students have benefited from your resources - you will be influencing " +
+        "the quality of classes around the world.\"";
+    }
+    function mouseOver2() {
+        x.innerHTML = "";
+        x.style.maxWidth = "1100px";
+        x.innerHTML = "" +
+        "\"Find great resources. GreaterCommons is a central repository of course resources. " +
+        "Find the resources that have been used the most, and rated the highest, then " +
+        "copy those resources into your collection and use them in your classes.\"";
+    }
+
+    function mouseOut() {
+        x.innerHTML = "";
+        x.style.maxWidth= "800px";
+        x.innerHTML = "\"GreaterCommons lets you " +
+        "collect, share, and discover class materials. GreaterCommons will help you find great " +
+        "teaching materials including videos, articles, pictures, handouts, presentations and more.\"";
+    }
+</script>
+</body>
+</html>

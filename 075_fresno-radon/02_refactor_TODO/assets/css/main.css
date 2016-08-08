@@ -1,0 +1,479 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+=================
+HEADER
+=================
+*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+}
+
+ul {
+    display: none;
+}
+
+h1 {
+    color: #484848;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-bottom: 19px;
+}
+
+header h1 {
+    text-align: center;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+/*
+=================
+MAIN IMAGE
+=================
+*/
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2, h3 {
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Alice', serif;
+    font-size: 55px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 29px;
+}
+
+.image-text {
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Open sans', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    max-width: 492px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.book-appointment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 38px;
+    background-color: #f00;
+    font-family: 'Open sans', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*
+
+.book-appointment:visited {
+    background-color: #f00;
+}
+
+.book-appointment:hover {
+    background-color: darkgreen;
+}
+
+*/
+
+/*
+=================
+ARTICLES
+=================
+*/
+
+section {
+    display: flex;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+article h1, article h2 {
+    font-family: 'Alice', sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    /*color: #484848;*/
+    padding: .3em 0;
+}
+
+article h2 {
+    color: #484848;
+}
+
+p, section li {
+    font-family: 'Open sans', sans-serif;
+    font-size: 15px;
+    color: #8e8e8e;
+    /*max-width: 750px;*/
+    line-height: 19px;
+    padding-bottom: 10px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.centers-button {
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.max-width {
+    /*max-width: 750px;*/
+}
+
+aside {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+article img {
+    display: none;
+}
+
+.right-aligns {
+    align-self: flex-end;
+}
+
+cite a {
+    font-family: 'Open sans', sans-serif;
+    font-size: 12px;
+    color: #8e8e8e;
+    text-decoration: none;
+}
+
+cite a:hover {
+    color: #00f;
+    text-decoration: underline;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.divider span {
+    background-color: #d0d0d0;
+    height: 1px;
+    width: 260px;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+    color: #484848;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: silver;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.gray-row {
+    background-color: #d0d0d0;
+}
+
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.red {
+    text-align: center;
+    color: #f00;
+}
+
+.phone {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.phone a {
+    color: #f00;
+    /*color: #484848;*/
+    font-family: sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.phone a:hover {
+    color: #00f;
+}
+
+.phone a:visited {
+    color: #f00;
+}
+
+.book-info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.book-item {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    margin: 0 15px 0 15px;
+}
+
+/*.book-item p {*/
+/*margin: 0 auto;*/
+/*}*/
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    text-align: center;
+    line-height: 22px;
+}
+
+footer div a {
+    text-decoration: none;
+}
+
+footer div a:hover {
+    text-decoration: underline;
+    color: #00f;
+}
+
+/*
+=====================================================================================
+MEDIA QUERIES
+=====================================================================================
+*/
+
+/*GREATER THAN 600px*/
+@media all and (min-width: 600px) {
+    /*adds image of radon entering house*/
+    article img {
+        display: block;
+    }
+
+    /*puts numbered list and image on each side of container*/
+    div aside {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .divider span {
+        width: 450px;
+    }
+
+}
+
+/*LESS THAN 768px*/
+@media all and (max-width: 768px) {
+
+    .main-image {
+        width: 100%;
+        height: 540px;
+        background: url("../images/fam_blur_under_600_web_medium.jpg") center 30% no-repeat;
+        background-size: cover;
+    }
+
+    .us-image {
+        width: 100%;
+        height: 540px;
+        background: url("../images/us_16_9_smaller_web_30.jpg") center 30% no-repeat;
+        background-size: cover;
+    }
+}
+
+/*GREATER THAN 768px*/
+@media all and (min-width: 768px) {
+
+    /*changes main image and size of main image*/
+    .main-image {
+        width: 100%;
+        height: 600px;
+        background: url("../images/fam_blur.jpg") center 30% no-repeat;
+        background-size: cover;
+    }
+
+    /*changes main image and size of main image*/
+    .us-image {
+        width: 100%;
+        height: 600px;
+        background: url("../images/us_left_web_30.jpg") center 30% no-repeat;
+        background-size: cover;
+    }
+
+    /*adds navigation at top*/
+    header {
+        height: 9em;
+    }
+
+    header h1 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+    }
+
+    li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 30px;
+        background-color: #f6f6f6;
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+        color: #484848;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    /*adds line*/
+    .line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .line span {
+        background-color: #d0d0d0;
+        height: 1px;
+        width: 190px;
+    }
+
+    .divider span {
+        width: 600px;
+    }
+
+}
+
+/*GREATER THAN 800px*/
+@media all and (min-width: 800px) {
+    /*increases line size*/
+    .line span {
+        width: 206px;
+    }
+
+    .divider span {
+        width: 650px;
+    }
+}
+
+/*GREATER THAN 980px*/
+@media all and (min-width: 980px) {
+    /*increases line size*/
+    .line span {
+        width: 300px;
+    }
+
+    .divider span {
+        width: 750px;
+    }
+}
+
+/*GREATER THAN 1100px*/
+@media all and (min-width: 1100px) {
+    /*increases line size*/
+    .line span {
+        width: 330px;
+    }
+
+    .divider span {
+        width: 850px;
+    }
+}
+
+/*
+  ========================================
+  see regions of document - for development only
+  ========================================
+
+
+
+header {
+    background-color: lightblue;
+}
+
+article {
+    background-color: green;
+}
+
+figure {
+    background-color: pink;
+}
+
+section {
+    background-color: yellow;
+}
+
+footer {
+    background-color: darkturquoise;
+}
+
+* {
+      border: 1px solid red;
+  }
+
+*/
+
+

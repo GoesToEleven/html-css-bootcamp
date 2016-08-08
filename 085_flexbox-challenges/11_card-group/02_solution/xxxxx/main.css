@@ -1,0 +1,97 @@
+* {
+    /*border: 2px dashed black;*/
+}
+
+html {
+    font-size: 1vw;
+    font-family: Raleway, Helvetica, sans-serif;
+    color: #57727C;
+}
+
+html, body, div, h3, span {
+    padding: 0;
+    /*border: 0;*/
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body, #atf {
+    height: 100%;
+}
+
+#atf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    /* arrange children */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* format */
+    border: 1px solid rgb(202, 208, 210);
+    border-radius: 4px;
+    width: 27%;
+}
+
+.top {
+    /* arrange children */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* format */
+    width: 100%;
+}
+
+.bottom {
+    width: 100%;
+    text-align: center;
+    background-color: #EEF3F5;
+    border-top: 1px solid #D7DBDD;
+    margin-top: 1.6rem;
+    padding: 1.7rem;
+}
+
+h3 {
+    /* format */
+    font-size: 2.2rem;
+    font-weight: 300;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    /* arrange children */
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+span {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.icon-mas {
+    color: rgb(188, 210, 218);
+    font-size: 20rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 700px) {
+    h2 {
+        font-size: 3rem;
+    }
+}

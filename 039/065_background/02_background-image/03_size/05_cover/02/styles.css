@@ -1,0 +1,8 @@
+div {
+    height: 400px;
+    width: 400px;
+    border: 20px groove orange;
+    background-image: url("01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

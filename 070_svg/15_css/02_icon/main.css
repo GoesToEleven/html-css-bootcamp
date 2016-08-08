@@ -1,0 +1,43 @@
+#somecontainer {
+    color: deepskyblue;
+}
+
+.somecontainer2 {
+    color: red;
+    font-size: 3rem;
+}
+
+.icon {
+    /* Allows sizing by changing the icon’s font-size ... em looks to the parent's font then takes a multiple of that ... whatever the font of the container, (the parent) our icon will be a multiple of 1 of that */
+    width: 1em; height: 1em;
+    /* Nice visual alignment for icons alongside text */
+    vertical-align: -0.15em;
+    /* Default path fill = value of the color property ... currentColor takes the color of the parent ... whatever the color of the container (the parent) our icon will be that color */
+    fill: currentColor;
+    /* Paths and strokes that overflow the viewBox can show in IE.
+       If you use normalize.css, it already sets this. */
+    overflow: hidden;
+}
+
+.overwrite {
+    /* Change the width and height */
+    font-size: 40px;
+    /* Change the fill color */
+    color: purple;
+    /* Change the vertical-align if you need more precision
+       (sometimes needed for pixel-perfect rendering) */
+    /*vertical-align: top;*/
+}
+
+/* text formatting */
+pre {
+    display: inline-block;
+    padding: 5px 10px;
+    width: 425px;
+    border: 2px solid black;
+    background-color: #d5dfef;
+}
+
+div, svg {
+    /*border: 1px solid black;*/
+}

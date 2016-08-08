@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display: none;">
+
+    <symbol id="check" viewBox="0 0 20 20">
+
+        <!--the circle-->
+        <!-- Will inherit the value of fill (svg property)-->
+        <path d="M10 1c-4.962 0-9 4.038-9 9 0 4.963 4.038 9 9 9 4.963 0 9-4.037 9-9 0-4.962-4.037-9-9-9zm0 16.615c-4.2 0-7.615-3.416-7.615-7.615C2.385 5.8 5.8 2.385 10 2.385c4.2 0 7.615 3.416 7.615 7.615 0 4.2-3.416 7.615-7.615 7.615z"/>
+
+        <!--the check-->
+        <!-- Will inherit the value of color (css property)-->
+        <!-- we're setting "fill" to the current css color -->
+        <path fill="currentColor" d="M13.664 6.74l-5.05 5.05-2.278-2.28c-.27-.27-.71-.27-.98 0s-.27.71 0 .98l2.77 2.77c.135.134.312.202.49.202.177 0 .354-.068.49-.203l5.537-5.54c.27-.27.27-.708 0-.98-.27-.27-.708-.27-.98 0z"/>
+
+    </symbol>
+
+</svg>
+
+<svg class="icon" aria-hidden="true">
+    <use xlink:href="#check"></use>
+</svg>
+
+<svg class="icon iconColor" aria-hidden="true">
+    <use xlink:href="#check"></use>
+</svg>
+
+<svg class="icon iconColor2" aria-hidden="true">
+    <use xlink:href="#check"></use>
+</svg>
+
+</body>
+</html>

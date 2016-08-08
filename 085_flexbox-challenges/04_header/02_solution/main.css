@@ -1,0 +1,111 @@
+* {
+    /*border: 1px solid hotpink;*/
+}
+
+html {
+    font-size: 1vw;
+}
+
+html, body, header, nav, button, div, main, h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 1em; height: 1em;
+    fill: currentColor;
+    /*overflow: hidden;*/
+}
+
+.icon-big-in {
+    font-size: 20rem;
+}
+
+main {
+    color: hotpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgba(169, 169, 169, 0.87);
+    font-size: 10rem;
+    letter-spacing: .7rem;
+    text-transform: uppercase;
+}
+
+/* HEADER */
+
+header {
+    /* locks header to top of page */
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* sets dimensions of header */
+    width: 100%;
+    height: 75px;
+    /* sets formatting on header */
+    background-color: gray;
+    border-bottom: 1px solid darkgray;
+    /*
+    header's immediate direct children
+    will be on the left and the right
+    they will also be vertically centered
+    */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    /* move from left edge */
+    padding-left: 40px;
+    /* center immediate direct children */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-sm-in {
+    font-size: 1.4rem;
+}
+
+button {
+    /* format */
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    /* remove button's default background color */
+    background-color: inherit;
+    /* turn pointer into finger */
+    cursor: pointer;
+    /* center immediate direct children (the text) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    color: #000;
+    background-color: lightgrey;
+}
+
+div {
+    /* move from right edge */
+    padding-right: 40px;
+}

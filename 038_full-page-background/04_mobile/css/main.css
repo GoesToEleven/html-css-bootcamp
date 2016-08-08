@@ -1,0 +1,15 @@
+body {
+  background-image: url("../img/background-photo-mobile-devices.jpg");
+  background-position: center center; 
+  background-repeat: no-repeat;  
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+}
+
+/* For larger devices */
+@media only screen and (min-width: 506px) {
+  body {
+    background-image: url("../img/background-photo.jpg")
+  }
+}

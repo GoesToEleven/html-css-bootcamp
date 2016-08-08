@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+svg {
+    border: 1px solid black;
+    width: 200px;
+}
+
+.top-right-nav-item {
+    fill: red;
+}
