@@ -1,3 +1,8 @@
+* {
+    border: 1px solid hotpink;
+}
+
+
 body {
     font-size: 1.6rem;
     background-image: url("../pic/fog.jpg");
