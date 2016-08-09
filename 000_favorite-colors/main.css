@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div {
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    line-height: 200px; /* centers vertically */
+    margin: 20px;
+}
+
+#c01 {
+    background-color: deepskyblue;
+}
+
+#c02 {
+    background-color: royalblue;
+}

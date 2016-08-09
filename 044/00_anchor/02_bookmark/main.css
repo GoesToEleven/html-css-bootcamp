@@ -1,0 +1,23 @@
+html, body, header, main, ul {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+main {
+    /* formatting */
+    border: 2px solid darkblue;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+li {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+a {
+    display: block;
+    padding: 1em;
+}

@@ -8,9 +8,9 @@ div {
     width: 600px;
     height: 600px;
     border: 50px solid rgba(0,0,0,1);
-    background: rgba(106, 161, 255, 0.23);
+    /*background: rgba(106, 161, 255, 0.23);*/
     /*background: cornflowerblue url("01.png") no-repeat;*/
-    /*background: url("01.png") center cover no-repeat fixed border-box border-box cornflowerblue;*/
+    background: url("01.png") center cover no-repeat fixed border-box border-box cornflowerblue;
     /*background-image: url("01.png");*/
     /*background-position: center;*/
     /*background-size: cover;*/

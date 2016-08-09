@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    width: 400px;
+    border: 10px groove lightskyblue;
+    margin: 0 auto;
+}
