@@ -1,5 +1,5 @@
 * {
-    border: 1px solid hotpink;
+    /*border: 1px solid hotpink !important;*/
 }
 
 
@@ -25,6 +25,7 @@ nav {
 
 ul {
     display: flex;
+    flex-flow: row wrap;
 }
 
 li {
@@ -47,7 +48,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
     /*border: 2px solid red;*/
     border-radius: 5px;
 }
@@ -55,11 +55,6 @@ a {
 /* added: */
 a:hover {
     background-color: ghostwhite;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
 }
 
 section {
