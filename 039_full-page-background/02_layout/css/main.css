@@ -1,0 +1,27 @@
+html {
+    /*border: 10px solid blue;*/
+}
+
+body {
+    /*border: 10px solid green;*/
+}
+
+#idx-atf {
+    height: 100vh;
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: row nowrap;*/
+    justify-content: center;
+    align-items: center;
+    border: 10px solid hotpink;
+}
+
+.idx-center {
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: column nowrap;*/
+    justify-content: center;
+    align-items: center;
+}
