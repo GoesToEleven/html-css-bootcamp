@@ -16,9 +16,6 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, button, p, blockquote, pre, a, ab
 
     /* no outline around anything */
     outline: none;
-
-    /* inherit the color value of the parent */
-    color: inherit;
 }
 
 ol, ul {
@@ -36,7 +33,6 @@ a {
 button {
     /* turn the cursor into a pointing finger */
     cursor: pointer;
-    background-color: transparent;
 }
 
 blockquote, q {
