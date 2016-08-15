@@ -1,0 +1,33 @@
+html {
+    /*border: 10px solid blue;*/
+}
+
+body {
+    /*border: 10px solid green;*/
+}
+
+#idx-atf {
+    /* layout */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background */
+    background-color: #5b5b5b;
+    background-image: url("../img/background-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-origin: border-box;*/
+    background-attachment: fixed;
+    /* formatting */
+}
+
+.idx-center {
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: column nowrap;*/
+    justify-content: center;
+    align-items: center;
+}
