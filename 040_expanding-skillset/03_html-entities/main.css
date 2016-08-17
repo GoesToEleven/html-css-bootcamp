@@ -1,0 +1,16 @@
+body {
+    width: 50%;
+    margin: .5rem auto;
+    border: 30px groove skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}

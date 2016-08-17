@@ -1,0 +1,19 @@
+Use meta viewport to control the width and scaling
+of the browser's viewport
+
+width=device-width
+matches the viewport's width to
+the device's width in device-independent pixels
+
+initial-scale=1
+establishes a 1:1 relationship
+between CSS pixels and device-independent pixels
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+Ensure your page is accessible by not disabling user scaling.
+user-scalable default is yes
+
+What is RESPONSIVE?
+All content responds to changes in viewport size
+All content fits within the viewport

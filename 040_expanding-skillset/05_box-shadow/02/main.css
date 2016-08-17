@@ -1,0 +1,23 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 2vw;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 10rem;
+    height: 10rem;
+    background-color: black;
+    box-shadow: 14px 14px 10px red;
+}
