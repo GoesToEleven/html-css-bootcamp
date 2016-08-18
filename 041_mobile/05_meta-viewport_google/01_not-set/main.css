@@ -1,13 +1,16 @@
-* {
+html, body, article, p {
+    padding: 0;
+    border: 0;
+    margin: 0;
     box-sizing: border-box;
     /* Disable font boosting */
-    /*max-height: 1000000px;*/
-    /*-webkit-text-size-adjust: 100%;*/
-    /*-ms-text-size-adjust: none;*/
+    max-height: 1000000px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: none;
 }
 
 body {
-    margin: 2em;
+    margin-top: 200px;
     background-image: url('checker.png');
 }
 
@@ -16,7 +19,6 @@ article {
     color: #ccc;
     background-color: rgba(0, 0, 0, 0.9);
     padding: 10px;
-    border-radius: 4px;
 }
 
 b {

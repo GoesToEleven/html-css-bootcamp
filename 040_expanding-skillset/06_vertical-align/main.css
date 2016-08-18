@@ -15,7 +15,7 @@ body {
 
 div {
     width: 70%;
-    /*height: 250px;*/
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
