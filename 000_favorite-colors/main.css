@@ -13,7 +13,9 @@ div {
 }
 
 #c01 {
-    background-color: deepskyblue;
+    /*background-color: deepskyblue;*/
+    background-color: rgb(0,0,255);
+    background-color: #0000ff;
 }
 
 #c02 {
