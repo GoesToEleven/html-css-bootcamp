@@ -2,30 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        html {
-            font-size: 20px;
-        }
-
-        strong {
-            color: blue;
-        }
-    </style>
+    <title>About SVG</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
 <svg version="1.1"
-     baseProfile="full"
      xmlns="http://www.w3.org/2000/svg"
      width="300"
      height="200">
 
-    <rect width="100%" height="100%" fill="red"/>
+    <rect width="100%" height="100%" fill="blue"/>
 
-    <circle cx="150" cy="100" r="80" fill="green"/>
+    <circle cx="150" cy="100" r="80" fill="yellow"/>
 
-    <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
+    <text x="150" y="125" font-size="60" text-anchor="middle" fill="black">SVG</text>
 
 </svg>
 
@@ -36,7 +27,7 @@
             <li>XML is case sensitive.</li>
             <li>You must close all tags.</li>
             <li>Attributes must be inside quotes.</li>
-            <li>XML header lines
+            <li>XML header lines (the "prolog")
                 <ul>
                     <li>Example:
                         <ul>
@@ -44,14 +35,17 @@
                         </ul>
                     </li>
                     <li><strong>should be removed</strong> when you are embedding an SVG in an HTML page or another SVG</li>
-                    <li>Well-formed XML documents contain only one prolog. So they should be removed if you are
-                        embedding one SVG inside another. See: <a
-                                href="http://www.w3.org/TR/2008/REC-xml-20081126/#dt-wellformed">this for more info</a>
-                    </li>
-                    <li>When embedding an SVG inside an HTML file, you could keep the prolog lines. The HTML parser in
-                        the browser will ignore them. But given they serve no purpose, it is my advice that you "should"
-                        remove them to make your document smaller - and more readable. :)
-                    </li>
+                    <li>More Info:<ul>
+                        <li>Well-formed XML documents contain only one prolog (The XML Prolog is the section at the beginning of an XML document which includes everything that appears before the document's root element. The XML declaration, the DOCTYPE and any processing instructions or comments may all be a part of it). So the prolog should be removed on embedded SVGs if you are
+                            embedding one SVG inside another. See <a href="http://www.w3schools.com/xml/xml_syntax.asp" target="_blank">this</a> and <a
+                                    href="http://www.w3.org/TR/2008/REC-xml-20081126/#dt-wellformed" target="_blank">this</a> for more info.
+                        </li>
+                        <li>When embedding an SVG inside an HTML file, you could keep the prolog lines. The HTML parser in
+                            the browser will ignore them. But given they serve no purpose, it is my advice that you "should"
+                            remove them to make your document smaller - and more readable. :)
+                        </li></ul></li>
+
+
                 </ul>
             </li>
         </ul>
@@ -72,6 +66,14 @@
                 <ul>
                     <li><pre>
 &lt;svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 100 100"&gt;
+                    </pre>
+                    </li>
+            <li><strong>or this:</strong>
+                <ul>
+                    <li><pre>
+&lt;svg version="1.1"
      baseProfile="full"
      xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -81,7 +83,7 @@
                     <li>"version" and "baseProfile" identify the version of the SVG and should always be used instead of
                         DTD.
                     </li>
-                    <li>the last two lines cause errors in webstorm for me so I leave them off with slight reservation
+                    <li>the last two lines of the second example cause errors in webstorm for me so I leave them off with slight reservation
                     </li>
                 </ul>
             </li>
@@ -92,7 +94,7 @@
         <ul>
             <li><strong>Avoid the inline 'style' attribute</strong> where possible
                 <ul>
-                    <li>Not This
+                    <li><strong>Not this</strong>
                         <ul>
                             <li><pre>
 &lt;circle style="fill:red; stroke:blue;" ... /&gt;
@@ -100,7 +102,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li>But This
+                    <li><strong>But this</strong>
                         <ul>
                             <li><pre>
 &lt;circle fill="red" stroke="blue" ... /&gt;
@@ -121,14 +123,14 @@
             <li>In other words, wherever you would otherwise have omitted the unit from a length assigned to a property,
                 use the px unit instead.
             </li>
-            <li>For example, instead of writing:
+            <li><strong>Not This</strong>:
                 <ul>
                     <li>
                         <pre>&lt;text stroke-width="2" style="font-size:20;" ...&gt;</pre>
                     </li>
                 </ul>
             </li>
-            <li>write:
+            <li><strong>But this:</strong>
                 <ul>
                     <li>
                         <pre>&lt;text stroke-width="2px" style="font-size:20px;" ...&gt;</pre>
