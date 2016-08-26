@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    width: 30rem;
+    height: 30rem;
+}
+
+.c0 {
+    fill: red;
+    stroke: black;
+    color: pink;
+}
+
+.c0:hover {
+    color: red;
+}
+
+
+.c1 {
+    fill: darkkhaki;
+    stroke: black;
+    color: firebrick;
+}
+
+.c1:hover {
+    fill: firebrick;
+}
+
+
+
+.c2 {
+    fill: mediumturquoise;
+    stroke: black;
+    color: rebeccapurple;
+}
+
+.c2:hover {
+    color: mediumturquoise;
+}

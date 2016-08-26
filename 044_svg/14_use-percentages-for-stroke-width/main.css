@@ -1,0 +1,44 @@
+html, body, svg {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    text-align: center;
+    /*border: 2px solid hotpink;*/
+}
+
+svg {
+    width: 30rem;
+    height: 30rem;
+    stroke: red;
+    fill: transparent;
+    padding: 20px;
+}
+
+.c1 {
+    stroke-width: .2%;
+}
+
+.c2 {
+    stroke-width: .4%;
+}
+
+.c3 {
+    stroke-width: .6%;
+}
+
+.c4 {
+    stroke-width: 1%;
+    fill: pink;
+}
