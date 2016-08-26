@@ -1,0 +1,27 @@
+html, body, pre, code, h1, h2 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 50%;
+    border: 20px groove palegreen;
+    margin: 40px auto;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+svg {
+    border: 2px solid red;
+}
+
+code {
+    font-size: 1.6rem;
+}
