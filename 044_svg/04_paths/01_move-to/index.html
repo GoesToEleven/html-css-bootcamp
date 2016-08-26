@@ -6,19 +6,51 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+<div>
+<section>
+    <h1>M</h1>
+    <p>move to a point</p>
+
+    <h1>L</h1>
+    <p>draw a line to a point</p>
+
+    <h1>l</h1>
+    <p>draw a line from where you're at to a point</p>
+
+    <h1>V</h1>
+    <p>draw a vertical line to this y-coordinate</p>
+
+    <h1>v</h1>
+    <p>draw a vertical line from where you're at this distance</p>
+
+    <h1>H</h1>
+    <p>draw a horizontal line to this x-coordinate</p>
+
+    <h1>h</h1>
+    <p>draw a vertical line from where you're at this distance</p>
+
+    <h1>case</h1>
+    <p>uppercase - absolute</p>
+    <p>lowercase - relative</p>
+
+</section>
 
 <svg version="1.1"
      xmlns="http://www.w3.org/2000/svg"
-     width="200"
-     height="200">
+     width="800"
+     height="800">
 
-    <path d="M10 10"/>
+    <!--<path d="M10 10"/>-->
     <!--<path d="M10 10 L100 150" stroke="black"/>-->
+    <!--<path d="M10 10 l90 140" stroke="black"/>-->
+    <!--<path d="M10 10 l90 140 v-50 h20" stroke="black" stroke-width="4" fill="transparent"/>-->
+    <path d="M10 10 l90 140 V-50 h20 m20 10 l90 140" stroke="black" stroke-width="4" fill="transparent"/>
 
     <!-- Points -->
-    <circle cx="10" cy="10" r="2" fill="red"/>
+    <!--<circle cx="10" cy="10" r="2" fill="red"/>-->
 
 </svg>
+</div>
 
 <h1>To Read:
     <br>
