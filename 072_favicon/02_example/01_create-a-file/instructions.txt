@@ -1,5 +1,5 @@
 Create a PNG-24 image
-at least 260x260	or more for optimal results
+at least 260x260 or more for optimal results
 
 Use an icon from font-awesome
 
