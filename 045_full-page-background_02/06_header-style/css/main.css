@@ -1,0 +1,130 @@
+html {
+    font-family: 'Cantarell', sans-serif;
+    color: whitesmoke;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: row nowrap;*/
+    justify-content: space-between;
+    align-items: center;
+    /* formatting */
+    background-color: rgba(0,0,0,.6);
+}
+
+header div, header nav {
+    width: 300px;
+    height: 80%;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    /* FOR DEBUGGING */
+    /*border: 2px solid hotpink;*/
+}
+
+header a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /*border: 2px solid hotpink;*/
+}
+
+
+header a:hover {
+    color: #9dbb88;
+    /*border: 2px solid lawngreen;*/
+}
+
+header div a h1 {
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+
+header nav {
+    justify-content: space-between;
+}
+
+header nav a {
+    padding: 0 1rem;
+}
+
+header nav a:hover {
+    border-radius: 5px;
+    background-color: dimgray;
+}
+
+.idx-hdr-svg {
+    width: 30px;
+    height: 100%;
+    fill: currentColor;
+    /*border: 1px solid darkturquoise;*/
+}
+
+#idx-atf {
+    /* layout */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background */
+    background-color: #5b5b5b;
+    background-image: url("../img/background-photo-mobile-devices.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-origin: border-box;*/
+    background-attachment: fixed;
+    /* formatting */
+}
+
+#idx-atf > div {
+    height: 90vh;
+}
+
+.idx-center-spacebetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.idx-center-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: .8rem;
+    line-height: 1.2;
+}
+
+button {
+    color: rgb(202, 250, 234);
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 1px solid rgb(202, 250, 234);
+    padding: .7rem 1.2rem;
+    border-radius: 3px;
+}
