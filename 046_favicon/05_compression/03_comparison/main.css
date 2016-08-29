@@ -1,0 +1,9 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

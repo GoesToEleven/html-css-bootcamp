@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<h1>Favicon Backstory</h1>
+<p>These notes provide some history on favicon. Stay current by searching & at <a href="http://realfavicongenerator.net/">The Real Favicon
+    Generator</a></p>
+
+<h1>Create A Favicon</h1>
+<h3>This is where you want to go to create a favicon - <a href="http://realfavicongenerator.net/">The Real Favicon
+    Generator</a></h3>
+
+<h1>Everything you wanted to know about favicons</h1>
+<h3>favicon.ico is deprecated</h3>
+<p>CSS Tricks - AUGUST 18, 2014: <br> "Let's face an unsatisfying truth. Altough all desktop browsers support favicon.ico, <mark>this file is mostly
+    deprecated. </mark> Yes, you can still rely on this file and it will work as expected. But seriously, it's an old deprecated
+    format. It is not used anywhere else in web technology. PNG is much more consistent.</p>
+
+<p>"favicon.ico is for old versions of IE. For the other browsers and most recent versions of IE, we <mark>use PNG</mark>
+    icons.</p>
+
+<p>"Since the adoption of <mark>HTML5</mark>, favicon.ico isn't very useful. The <mark>sizes attribute</mark> was introduced to
+    specify several different versions of the same icon, and those can be PNG files."</p>
+
+<figure>
+    &lt;link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16"&gt;<br>
+    &lt;link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32"&gt;<br>
+    &lt;link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96"&gt;
+</figure>
+
+<h1>Many Files</h1>
+<h3>To support all of the difference devices, you now need many files</h3>
+<p>PNG icons, Apple Touch icons, Windows 8 tile graphics, browserconfig.xml (IE 11), manifest.json (Android)</p>
+<p><mark>Platforms other than Apple also use the Apple touch icons.</mark> </p>
+
+<figure>
+
+    &lt;link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png"&gt;<br>
+    &lt;link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png"&gt;<br>
+    &lt;link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png"&gt;<br>
+    &lt;link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png"&gt;<br>
+    &lt;link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png"&gt;<br>
+    &lt;link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png"&gt;<br>
+    &lt;link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png"&gt;<br>
+    &lt;link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png"&gt;
+
+</figure>
+
+<p>Since these icons are popular and more common than high resolution PNG icons, some browsers, such as Android Chrome, are using them. Therefore, declaring them is safer, in case a visitor with a compatible device or browser is able to process one of them.</p>
+
+
+<br>
+<img src="img/apple.png" alt="">
+<br>
+
+
+<p>
+    <mark>Windows 8</mark>
+</p>
+
+<p>Windows 8.0 declaration typically looks like:</p>
+
+<figure>
+    &lt;meta name="msapplication-TileColor" content="#2b5797"&gt;<br>
+    &lt;meta name="msapplication-TileImage" content="/mstile-144x144.png"&gt;
+</figure>
+
+<p>
+    <mark>Windows 8.1 and IE 11 rely on several tile pictures declared in <strong>browserconfig.xml</strong>. For example:</mark>
+</p>
+
+<figure><pre>
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;browserconfig&gt;
+    &lt;msapplication&gt;
+        &lt;tile&gt;
+            &lt;square70x70logo src="img//mstile-70x70.png"/&gt;
+            &lt;square150x150logo src="img//mstile-150x150.png"/&gt;
+            &lt;square310x310logo src="img//mstile-310x310.png"/&gt;
+            &lt;wide310x150logo src="img//mstile-310x150.png"/&gt;
+            &lt;TileColor&gt; #2b5797&lt;/TileColor&gt;
+        &lt;/tile&gt;
+    &lt;/msapplication&gt;
+&lt;/browserconfig&gt;
+</pre>
+</figure>
+
+<h1>Results</h1>
+<h3>After running <a href="http://realfavicongenerator.net/">The Real Favicon
+    Generator</a> This is what you will get:</h3>
+
+<br>
+<img src="img/html.png" alt="">
+<br>
+<img src="img/files.png" alt="">
+<br>
+
+<h1>Sources</h1>
+<ul>
+    <li><a href="https://github.com/audreyr/favicon-cheat-sheet">Favicon Cheatsheet</a></li>
+    <li><a href="https://css-tricks.com/favicon-quiz/">CSS Tricks Take On Favicon</a></li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Create a PNG image
+
+Resolution greater than
+260 x 260 pixels
+
+Use an icon from font-awesome
+
+Make it bigger in illustrator
+
+Save it as a PNG in illustrator
+file / export
