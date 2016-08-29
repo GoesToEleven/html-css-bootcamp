@@ -1,0 +1,87 @@
+html {
+    font-size: 3vw;
+}
+
+html, body, div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#atf {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stepper {
+    height: 4.8rem;
+    width: 19.2rem;
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    border-radius: 1rem;
+    border: 1px solid blue;
+}
+
+#stepper-1 {
+    /* item */
+    flex-grow: 1;
+    /* container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    border-right: 1px solid blue;
+    background-color: lightblue;
+    border-radius: 1rem 0 0 1rem;
+    cursor: pointer;
+}
+
+#stepper-2 {
+    /* item */
+    flex-grow: 2;
+    /* container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stepper-3 {
+    /* item */
+    flex-grow: 1;
+    /* container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* formatting*/
+    border-left: 1px solid blue;
+    background-color: lightblue;
+    border-radius: 0 1rem 1rem 0;
+    cursor: pointer;
+}
+
+#stepper-1:hover, #stepper-3:hover  {
+    background-color: rgba(0, 0, 255, 0.62);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
