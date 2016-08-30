@@ -1,5 +1,5 @@
-html {
-    font-size: 2vw;
+* {
+    /*border: 5px solid hotpink !important;*/
 }
 
 html, body, div, button {
@@ -9,11 +9,12 @@ html, body, div, button {
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+html {
+    font-size: 2vw;
 }
 
-body {
+#atf {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,13 +22,15 @@ body {
 
 #tabs {
     width: 40rem;
-    border-bottom: .1rem solid darkgray;
     display: flex;
     justify-content: space-between;
+    border-bottom: .1rem solid darkgray;
 }
 
 button {
+    /* item */
     flex-grow: 1;
+    /* formatting */
     font-size: 1.6rem;
     height: 4.8rem;
     cursor: pointer;
