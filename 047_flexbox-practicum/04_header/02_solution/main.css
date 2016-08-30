@@ -56,7 +56,7 @@ button {
     justify-content: center;
     align-items: center;
     /* format */
-    color: white;
+    color: inherit;
     font-size: 1.2rem;
     padding: 10px 30px;
     margin-right: 10px;

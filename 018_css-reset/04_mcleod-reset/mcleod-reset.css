@@ -34,7 +34,7 @@ a {
 }
 
 button {
-    /* turn the cursor into a pointing finger */
+    color: inherit;
     cursor: pointer;
     background-color: transparent;
 }
