@@ -1,0 +1,32 @@
+div {
+    width: 500px;
+    height: 500px;
+    /* center text in div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    background-color: blue;
+    border: 4px solid black;
+    font-size: 4rem;
+    color: yellow;
+}
+
+div:hover {
+    color: blue;
+    background-color: yellow;
+}
+
+.trans-bg-clr {
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+
+    /* VARIATION */
+    /*transition-delay: 3s;*/
+    /*transition-property: background-color;*/
+    /*transition-duration: 500ms;*/
+    /*transition-timing-function: ease-in-out;*/
+    /* SHORTHAND */
+    /*transition: 3s background-color 500ms ease-in-out;*/
+}

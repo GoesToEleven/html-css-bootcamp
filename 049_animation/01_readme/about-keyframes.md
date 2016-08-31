@@ -1,12 +1,8 @@
-CSS Animations
+About Animation Keyframes
 
-[Read more about it here](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
+# CSS Animation Properties
 
-[See its browser support here](http://caniuse.com/#search=animation)
-
-# CSS Animation
-
-A css property which is shorthand for the following properties - this shows the properties and their default values:
+Animation properties and their default values:
 * animation-name: none
 * animation-duration: 0s
 * animation-iteration-count: 1
@@ -27,11 +23,13 @@ Each name indicates a **@keyframes** at-rule that defines the property values fo
 Examples:
 
 ```css
+/* no animation */
 animation-name: none;
-animation-name: test_05;
+
+/* a single animation */
 animation-name: test1;
 
-/* Multiple animations */
+/* a list of animations */
 animation-name: test1, animation4;
 
 /* Global values */
@@ -41,22 +39,22 @@ animation-name: unset
 ```
 # @keyframes
 
-The **@keyframes** CSS at-rule lets authors control the intermediate steps in a CSS animation sequence by establishing **keyframes** (or waypoints) along the animation sequence that must be reached by certain points during the animation. 
+The **@keyframes** at-rule (a CSS at-rule) lets authors control the intermediate steps in a CSS animation sequence by establishing **keyframes** (or waypoints) along the animation sequence that must be reached by certain points during the animation. 
 
-To use keyframes, you create a **@keyframes** rule with a **name** that is then used by the **animation-name** property to match an animation to its keyframe list. 
+To use keyframes, you create a **@keyframes** rule with the **name** that is used by the **animation-name** property. This matches an animation-name with the @keyframes at-rule. 
 
 ```css
 body {
-    animation-name: change-color;
+    animation-name: myCustomAnima;
 }
 
-@keyframes change-color {
+@keyframes myCustomAnima {
   0% { color: red; }
   100%   { color: gold; }
 }
 ```
 
-Each **@keyframes** rule contains a **style list** of keyframe selectors, each of which is comprised of a percentage along the animation at which the keyframe occurs as well as a block containing the style information for that keyframe.
+Each **@keyframes** at-rule contains rule-sets (a **style list**) of keyframe selectors, each of which is comprised of a percentage along the animation at which the keyframe occurs as well as a block containing the style information for that keyframe.
 
 You can list the keyframes in any order; they will be handled in the order in which their specified percentages indicate they should occur.
 
@@ -73,7 +71,7 @@ body {
 }
 ```
 
-In order for a keyframe list to be valid, it must include rules for at least the times 0% (or from) and 100% (or to) (that is, the starting and ending states of the animation). If both of these time offsets aren't specified, the keyframe declaration is invalid; as such, it will be ignored by the parser and can't be used for animation.
+In order for a keyframe list to be valid, it must include rules for the beginning and end of the animation: the 0% (or from) and 100% (or to). If the beginning and/or ending states of the animation aren't specified, the keyframe declaration is invalid; as such, it will be ignored by the parser and can't be used for animation.
 
 If you include properties that can't be animated in your keyframe rules they get ignored, but supported properties will still be animated.
 
