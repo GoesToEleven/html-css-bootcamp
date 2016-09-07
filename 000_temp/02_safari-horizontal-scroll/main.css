@@ -1,0 +1,28 @@
+html, body, section, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 32px;
+}
+
+section {
+    height: 300px;
+    background-color: darkolivegreen;
+}
+
+#menu {
+    /*display: flex;*/
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: saddlebrown;
+    border: 10px solid olive;
+    margin: 10px;
+}
