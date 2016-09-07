@@ -48,6 +48,12 @@ table {
     border-collapse: collapse;
 }
 
+input, select, progress{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 svg {
     width: 1.9em;
     height: 1.9em;
