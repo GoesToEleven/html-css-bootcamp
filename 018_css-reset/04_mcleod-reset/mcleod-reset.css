@@ -27,14 +27,11 @@ ol, ul {
 }
 
 a {
-    /* the color of the font for anchor tags is inherited */
-    color: inherit;
     /* no underline */
     text-decoration: none;
 }
 
 button {
-    color: inherit;
     cursor: pointer;
     background-color: transparent;
 }
