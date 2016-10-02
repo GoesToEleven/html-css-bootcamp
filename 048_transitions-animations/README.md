@@ -76,16 +76,16 @@ If you want the flexibility provided by having *multiple keyframes* and easy *lo
 Here are the CSS properties associated with animations and their default values:
 
 - animation-name: none
-- *animation-duration: 0s*
+- **animation-duration: 0s**
 - animation-iteration-count: 1
 - animation-direction: normal
-- *animation-timing-function: ease*
-- *animation-delay: 0s*
+- **animation-timing-function: ease**
+- **animation-delay: 0s**
 - animation-fill-mode: none
 - animation-play-state: running
 
- *(italicized properties are properties that transition also uses)*
- *(transition also has: transition-property: all;)*
+ **(bold properties are properties that transition also uses)**
+ **(transition also has: transition-property: all;)**
 
 ***
 
