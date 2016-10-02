@@ -16,6 +16,8 @@ Animations are good for changes which occur **between more than two points**. In
 
 **[Can I Use](http://caniuse.com/#search=transition)**
 
+Transitions are good for changes which occur from one point to another point. That's two points: a beginning point and an end point.
+
 A transition occurs when an element changes from one state to another, and the browser fills in that state change with a sequence of in-between frames. It has a beginning and an end state.
 
 We most often see transitions used on hover states, or when information on a page is added or removed. The hover states might be a subtle change in font color, and information on the page might fade from invisible to visible.
