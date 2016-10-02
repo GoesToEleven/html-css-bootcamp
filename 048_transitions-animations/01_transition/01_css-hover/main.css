@@ -17,16 +17,14 @@ div:hover {
     background-color: yellow;
 }
 
-.trans-bg-clr {
+.trans {
     transition-property: all;
     transition-duration: 2s;
     transition-timing-function: ease;
 
     /* VARIATION */
-    /*transition-delay: 3s;*/
     /*transition-property: background-color;*/
     /*transition-duration: 500ms;*/
     /*transition-timing-function: ease-in-out;*/
-    /* SHORTHAND */
-    /*transition: 3s background-color 500ms ease-in-out;*/
+    /*transition-delay: 3s;*/
 }
