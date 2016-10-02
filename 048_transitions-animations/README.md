@@ -43,7 +43,7 @@ Here are the CSS properties associated with transitions and sample values:
 - transition-timing-function: ease-in-out;
 - transition-delay: 1s;
 
-------- shorthand notation -------
+### shorthand notation
 - transition: all 500ms ease 1s;
 
 
