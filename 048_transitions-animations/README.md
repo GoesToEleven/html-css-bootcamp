@@ -75,14 +75,14 @@ If you want the flexibility provided by having *multiple keyframes* and easy *lo
 
 Here are the CSS properties associated with animations and their default values:
 
- animation-name: none
-*animation-duration: 0s
- animation-iteration-count: 1
- animation-direction: normal
-*animation-timing-function: ease
-*animation-delay: 0s
- animation-fill-mode: none
- animation-play-state: running
+ - animation-name: none
+- *animation-duration: 0s
+ - animation-iteration-count: 1
+ - animation-direction: normal
+- *animation-timing-function: ease
+- *animation-delay: 0s
+ - animation-fill-mode: none
+ - animation-play-state: running
 
  (* properties that transition also uses)
  (and transition has this property and animation does not: transition-property: background-color;)
