@@ -86,9 +86,9 @@ Here are the CSS properties associated with animations and their default values:
 
 ***
 
- **(bold properties are properties that transition also uses)**
+ **bold properties are properties that transition also uses**
 
- **(transition also has: transition-property: all;)**
+ *transition also has: transition-property: all;*
 
 ***
 
