@@ -28,12 +28,10 @@ body {
 
 .icon {
     width: 1em; height: 1em;
-    vertical-align: -0.15em;
     fill: currentColor;
-    overflow: hidden;
 }
 
-.icon-notch {
+.circle {
     font-size: 8rem;
     animation-name: spinner;
     animation-duration: 2s;

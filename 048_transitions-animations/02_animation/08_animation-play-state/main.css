@@ -41,7 +41,7 @@ p {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
-    animation-play-state: paused;
+    animation-play-state: running;
 }
 
 @keyframes grow-text {
