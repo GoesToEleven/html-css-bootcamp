@@ -38,13 +38,13 @@ Transitions offer a simple method of transitioning properties of an element.
 
 Here are the CSS properties associated with transitions and sample values:
 
-transition-property: all;
-transition-duration: 500ms;
-transition-timing-function: ease-in-out;
-transition-delay: 1s;
+- transition-property: all;
+- transition-duration: 500ms;
+- transition-timing-function: ease-in-out;
+- transition-delay: 1s;
 
 ------- shorthand notation -------
-    transition: all 500ms ease 1s;
+- transition: all 500ms ease 1s;
 
 
 *** 
