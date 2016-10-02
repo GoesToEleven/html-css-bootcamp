@@ -11,14 +11,3 @@ from that beginning point to the end point.
 
 Transitions create a "TRANSITION".
 
-Here are the CSS PROPERTIES associated with transitions (along with some of the values to which they can be set):
-
-    transition-property: background-color;
-    transition-duration: 500ms;
-    transition-timing-function: ease-in-out;
-
-------- shorthand notation -------
-    transition: 3s all 5s ease;
-
-------- note -------
-	transition-property: all;
