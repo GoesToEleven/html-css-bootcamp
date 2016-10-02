@@ -27,6 +27,7 @@ div {
 #two {
     position: absolute;
     top: 120px;
+    /*bottom: -210px;*/
     right: 20px;
     /* formatting */
     width: 300px;
