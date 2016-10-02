@@ -84,6 +84,7 @@ Here are the CSS properties associated with animations and their default values:
 - animation-fill-mode: none
 - animation-play-state: running
 
+
  **(bold properties are properties that transition also uses)**
  **(transition also has: transition-property: all;)**
 
