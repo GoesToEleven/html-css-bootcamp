@@ -1,14 +1,14 @@
 # Transitions & Animations
 
 
-TRANSITIONS and ANIMATIONS do the same thing.
+Transitions and animations do the same thing.
 
-- Transitions do it between TWO points.
-- Animations do it between TWO OR MORE points.
+- **Transitions:** do it between **two** points.
+- **Animations:** do it between **two or more** points.
 
 The result of a transition, or animation, are the same: a gradual change between two (or more) points.
 
-Animations are good for changes which occur **between more than two points**. In addition, ANIMATIONS give you more options on what is being changed.
+**Animations** are good for changes which occur **between more than two points**. In addition, animations give you more options on what is being changed.
 
 ***
 
