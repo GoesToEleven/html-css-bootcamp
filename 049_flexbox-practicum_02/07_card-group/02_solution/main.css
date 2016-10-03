@@ -1,5 +1,8 @@
-* {
-    /*border: 2px dashed black;*/
+html, body, div, h3, span {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -8,19 +11,10 @@ html {
     color: #57727C;
 }
 
-html, body, div, h3, span {
-    padding: 0;
-    /*border: 0;*/
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html, body, #atf {
-    height: 100%;
-}
-
 #atf {
+    height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -78,7 +72,6 @@ span {
 .icon {
     width: 1em;
     height: 1em;
-    vertical-align: -0.15em;
     fill: currentColor;
     overflow: hidden;
 }
@@ -86,12 +79,27 @@ span {
 .icon-mas {
     color: rgb(188, 210, 218);
     font-size: 20rem;
-    flex-grow: 0;
-    flex-shrink: 0;
 }
 
-@media screen and (max-width: 700px) {
-    h2 {
-        font-size: 3rem;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
