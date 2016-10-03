@@ -76,6 +76,8 @@ Three or more asteriks makes a horizontal line.
 Inline `code` has `back-ticks around` it.
 ```
 
+Below I will show you how to use the `body` selector.
+
 Blocks of code are fenced by lines with three back-ticks ```
 
 ``` css
