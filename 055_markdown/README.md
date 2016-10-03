@@ -75,8 +75,8 @@ Three or more asteriks makes a horizontal line.
 ```
 Put your code between triple backticks:
 
-```
+` ` `
 <put code here>
-```
+` ` `
 
 ```
