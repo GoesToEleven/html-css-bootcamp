@@ -4,7 +4,6 @@ Markdown is a lightweight markup language with plain text formatting syntax desi
 
 Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
 
-### 
 
 ## Horizontal line
 
