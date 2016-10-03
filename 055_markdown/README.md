@@ -43,7 +43,7 @@ Three or more asteriks makes a horizontal line.
 ```
 **This would be in bold**
 ```
-**This is in bold**
+**This is bold**
 
 ***
 
@@ -56,3 +56,14 @@ Three or more asteriks makes a horizontal line.
 
 ***
 
+## Lists
+
+```
+1. first item
+1. second item
+1. third item
+```
+
+1. first item
+1. second item
+1. third item
