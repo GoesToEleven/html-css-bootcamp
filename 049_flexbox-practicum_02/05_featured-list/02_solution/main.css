@@ -60,6 +60,4 @@ h2 {
 .icon-mas {
     color: rgb(188, 210, 218);
     font-size: 10rem;
-    flex-grow: 0;
-    flex-shrink: 0;
 }
