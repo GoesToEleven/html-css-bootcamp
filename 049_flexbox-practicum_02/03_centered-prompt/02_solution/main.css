@@ -1,13 +1,3 @@
-* {
-    /* for debugging */
-    /*border: 1px solid hotpink;*/
-}
-
-html {
-    font-size: 1vw;
-    color: #86969C;
-}
-
 html, body, div, h1, h2, button {
     padding: 0;
     border: 0;
@@ -15,11 +5,13 @@ html, body, div, h1, h2, button {
     box-sizing: border-box;
 }
 
-html, body, #atf {
-    height: 100%;
+html {
+    font-size: 1vw;
+    color: #86969C;
 }
 
 #atf {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,3 +53,19 @@ button {
     font-size: 10rem;
     margin-bottom: .5rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
