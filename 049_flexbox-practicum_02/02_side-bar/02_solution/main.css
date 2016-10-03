@@ -5,32 +5,26 @@ html, body, div, nav, button {
     box-sizing: border-box;
 }
 
-html, body, #sidebar {
-    height: 100%;
-}
-
 html {
     color: #16A2D7;
     font-size: 2vw;
 }
 
 #sidebar {
+    height: 100vh;
     /* arrange child elements */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
     /* format */
     border-right: 1px solid #D7DBDD;
-    width: fit-content;
+    width: fit-content; /*the width*/
 }
 
 .sidebar-child {
     /* arrange child elements */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
 }
 
 .sbc-top {
@@ -48,7 +42,7 @@ button {
     background-color: white;
     font-size: 1rem;
     height: 3rem;
-    width: 10rem;
+    width: 10rem; /*the width*/
     text-align: left;
     padding-left: 2rem;
     cursor: pointer;
@@ -57,3 +51,21 @@ button {
 button:hover {
     background-color: #EEF3F5;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

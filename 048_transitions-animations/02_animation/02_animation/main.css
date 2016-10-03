@@ -37,11 +37,12 @@ body {
 
 body {
     animation-name: change-color;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 
 @keyframes change-color {
-    from { color: red; }
-    to   { color: gold; }
+    0% { color: red; }
+    /*50% { color: green; }*/
+    100% { color: blue; }
 }
