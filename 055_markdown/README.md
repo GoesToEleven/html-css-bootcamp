@@ -4,16 +4,17 @@ Markdown is a lightweight markup language with plain text formatting syntax desi
 
 Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
 
+***
 
 ## Horizontal line
 
-Three or more hash-tags makes a horizontal line.
+Three or more asteriks makes a horizontal line.
 
 ```
-###
+***
 ```
 
-###
+***
 
 ## Headers
 
@@ -26,7 +27,7 @@ Three or more hash-tags makes a horizontal line.
 ###### H6
 ```
 
-### 
+*** 
 
 ## Italics
 
@@ -35,7 +36,7 @@ Three or more hash-tags makes a horizontal line.
 ```
 *This is in italics*
 
-###
+***
 
 ## Bold
 
@@ -44,7 +45,7 @@ Three or more hash-tags makes a horizontal line.
 ```
 **This is in bold**
 
-###
+***
 
 ## Links
 
@@ -53,4 +54,5 @@ Three or more hash-tags makes a horizontal line.
 ```
 [go to google](https://www.google.com)
 
-## 
+***
+
