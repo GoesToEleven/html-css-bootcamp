@@ -1,0 +1,15 @@
+html, body, header {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    background-color: gray;
+    background-image: url(bird.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 10px solid hotpink;
+}

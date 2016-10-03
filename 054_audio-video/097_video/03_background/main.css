@@ -1,0 +1,28 @@
+html, body, h1, div, video {
+    padding: 0;
+    margin: 0;
+}
+
+html, body, #atf {
+    height: 100%;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#atf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*position: static;*/
+}
+
+h1 {
+    color: red;
+    font-size: 5rem;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<audio id="demo" src="../../00_files/Newish_Disco.mp3" loop></audio>
+<h1></h1>
+<div>
+    <button id="play">Play the Audio</button>
+    <button id="pause">Pause the Audio</button>
+    <button id="vup">Increase Volume</button>
+    <button id="vdown">Decrease Volume</button>
+</div>
+
+<script>
+    var song = document.querySelector('audio');
+    var readout = document.querySelector('h1');
+    var play = document.querySelector('#play');
+    var pause = document.querySelector('#pause');
+    var vup = document.querySelector('#vup');
+    var vdown = document.querySelector('#vdown');
+
+    console.log(song.volume);
+    readout.textContent = song.volume;
+
+    play.addEventListener('click', function(){
+        song.play();
+    });
+
+    pause.addEventListener('click', function(){
+        song.pause();
+    });
+
+    vup.addEventListener('click', function(){
+        if (song.volume < 1) {
+            song.volume += 0.1;
+            console.log(song.volume);
+            readout.textContent = song.volume.toFixed(1);
+        }
+    });
+
+    vdown.addEventListener('click', function(){
+        if (song.volume >= 0.1) {
+            song.volume-=0.1;
+            console.log(song.volume);
+            readout.textContent = song.volume.toFixed(1);
+        }
+    });
+
+
+
+</script>
+</body>
+</html>

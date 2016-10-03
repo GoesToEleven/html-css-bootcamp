@@ -1,0 +1,45 @@
+html, body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 1vw;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 1em; height: 1em;
+    fill: currentColor;
+}
+
+.complete {
+    /* arrange */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* format */
+    color: #fff;
+    font-size: 4rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 1.5rem 4rem 1.5rem 2rem;
+    background-color: #67b11c;
+    border: .3rem solid #000;
+    border-radius: 5px;
+}
+
+.icon-white {
+    /*fill: white;*/
+    /*stroke: black;*/
+    /*stroke-width: 1%;*/
+    /*stroke-linejoin: round;*/
+    font-size: 5.2rem;
+    padding-right: 1rem;
+}

@@ -1,0 +1,25 @@
+* {
+    /*border: 1px solid red;*/
+}
+
+html, body, h1, div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 20rem;
+    line-height: 15rem;
+}
