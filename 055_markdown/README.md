@@ -73,10 +73,24 @@ Three or more asteriks makes a horizontal line.
 ## Code block
 
 ```
-Put your code between triple backticks:
+Inline `code` has `back-ticks around` it.
+```
 
-` ` `
-<put code here>
-` ` `
+Blocks of code are fenced by lines with three back-ticks ```
 
+```
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+ 
+```python
+s = "Python syntax highlighting"
+print s
+```
+ 
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+```
 ```
