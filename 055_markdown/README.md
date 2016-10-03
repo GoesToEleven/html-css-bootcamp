@@ -67,3 +67,16 @@ Three or more asteriks makes a horizontal line.
 1. first item
 1. second item
 1. third item
+
+***
+
+## Code block
+
+```
+Put your code between triple backticks:
+
+```
+<put code here>
+```
+
+```
