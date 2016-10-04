@@ -1,18 +1,16 @@
-html {
-    font-size: 3vw;
-}
-
 html, body, form, input {
     padding: 0;
+    border: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+html {
+    font-size: 3vw;
 }
 
 body {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +31,10 @@ div {
 
 form, input {
     font-size: 1rem;
+}
+
+input {
+    border: 2px solid darkgray;
 }
 
 #frmsubmit {
