@@ -1,0 +1,83 @@
+html, body, header, div, h1, h2 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4.5rem;
+    background-color: rgba(255, 192, 203, 0.52);
+    border: 2px solid red;
+    /* arrange content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5rem;
+}
+
+header > div {
+    height: 70%;
+    width: 10rem;
+    border: 2px solid red;
+    background-color: pink;
+    /* arrange content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#atf {
+    height: 100vh;
+    border: 4px solid hotpink;
+    background-image: url("bird.jpg");
+    background-size: cover;
+    background-position: center;
+    /* arrange content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 6rem;
+    border: 4px solid hotpink;
+}
+
+h2 {
+    color: red;
+    font-size: 15rem;
+    font-family: 'Nosifer', cursive;
+    border: 4px solid red;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
