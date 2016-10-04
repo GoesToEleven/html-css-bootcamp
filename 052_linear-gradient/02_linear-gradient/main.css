@@ -41,14 +41,19 @@ body {
 }
 
 .gradient {
-    background: linear-gradient(#72c41f, #5c9e19);
-    /*background: linear-gradient(#67b11c, deepskyblue);*/
-    /*background: linear-gradient(#67b11c, yellow);*/
-    /*background: linear-gradient(#67b11c, hotpink);*/
-    /*background: linear-gradient(#67b11c, yellow, hotpink);*/
-    /*background: linear-gradient(to right, #67b11c, yellow);*/
-    /*background: linear-gradient(to right, #67b11c, yellow, hotpink);*/
-    /*background: linear-gradient(to right bottom, #67b11c, yellow);*/
-    /*background: radial-gradient(#67b11c, yellow);*/
-    /*background: radial-gradient(#67b11c, yellow, hotpink);*/
+    background-image: linear-gradient(#72c41f, #5c9e19);
+    /*background-image: linear-gradient(hotpink, green, deepskyblue);*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
