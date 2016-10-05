@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="public/css/main.css">
 </head>
 <body>
 
+
+{{if .Method}}<p>The request method: {{.Method}}</p>{{end}}
+{{if .URL}}<p>The request URL: {{.URL}}</p>{{end}}
+{{if .Submissions}}<p>Form values submitted:</p>
+    {{range $key, $value := .Submissions}}
+            <p>{{$key}}</p>
+            <ul>{{range $value}}<li>{{.}}</li>{{end}}</ul>
+    {{end}}
+{{end}}
+
+<br>
+<br>
+
 <form action="/" method="post">
-    <div>
-        <label for="firstname">First Name:</label>
-        <input type="text" name="fname" id="firstname">
-    </div>
-    <div id="frmsubmit">
+        <input type="text" name="fname" placeholder="first name" autofocus autocomplete="off">
         <input type="submit" name="submit" id="submitobey" value="onda button">
-    </div>
 </form>
 
 </body>
