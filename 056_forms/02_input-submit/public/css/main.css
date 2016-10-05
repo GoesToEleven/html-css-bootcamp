@@ -1,4 +1,4 @@
-html, body, form, input, p {
+html, body, p, ul, li {
     padding: 0;
     border: 0;
     margin: 0;
@@ -21,29 +21,14 @@ form {
     justify-content: center;
 }
 
-div {
-    display: flex;
-    justify-content: space-between;
-}
-
 form, input {
     font-size: 3vw;
 }
 
-#frmsubmit {
-    justify-content: flex-end;
+input {
+    padding: 1vw;
 }
 
-#submitobey {
-    border: 1px solid black;
-    font-size: .7em;
-    background-color: white;
-    padding: .2rem .4rem;
-    border-radius: 5px;
-    margin-top: .8rem;
+input {
+    margin-bottom: 1vw;
 }
-
-#submitobey:hover {
-    background-color: #00C957;
-}
-

@@ -4,6 +4,7 @@ import (
 	"net/http"
 	"html/template"
 	"fmt"
+	"log"
 )
 
 var tpl *template.Template
@@ -21,8 +22,12 @@ func main() {
 
 func index(res http.ResponseWriter, req *http.Request) {
 
-	fmt.Println(req.PostForm)
-	fmt.Printf("%T\n", req.PostForm)
+	err := req.ParseForm()
+	if err != nil {
+		log.Println(err)
+	}
+	fmt.Println(req.Form)
+	fmt.Printf("%T\n", req.Form)
 
 	data := struct{
 		Method string
@@ -31,7 +36,7 @@ func index(res http.ResponseWriter, req *http.Request) {
 	}{
 		req.Method,
 		req.URL.Path,
-		req.PostForm,
+		req.Form,
 	}
 	tpl.ExecuteTemplate(res, "index.html", data)
 }

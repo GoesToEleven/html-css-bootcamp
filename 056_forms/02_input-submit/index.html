@@ -2,27 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Input Type Submit</title>
     <link rel="stylesheet" href="public/css/main.css">
 </head>
 <body>
 
-
+<header>
 {{if .Method}}<p>The request method: {{.Method}}</p>{{end}}
 {{if .URL}}<p>The request URL: {{.URL}}</p>{{end}}
-{{if .Submissions}}<p>Form values submitted:</p>
+{{if .Submissions}}<p><strong>variable names</strong> (identifiers) and <em>values</em>:</p>
     {{range $key, $value := .Submissions}}
-            <p>{{$key}}</p>
-            <ul>{{range $value}}<li>{{.}}</li>{{end}}</ul>
+            <p><strong>{{$key}}</strong></p>
+            <ul>{{range $value}}<li><em>{{.}}</em></li>{{end}}</ul>
     {{end}}
 {{end}}
-
-<br>
-<br>
+</header>
 
 <form action="/" method="post">
         <input type="text" name="fname" placeholder="first name" autofocus autocomplete="off">
-        <input type="submit" name="submit" id="submitobey" value="onda button">
+        <input type="submit" name="submit" value="onda button">
 </form>
 
 </body>
