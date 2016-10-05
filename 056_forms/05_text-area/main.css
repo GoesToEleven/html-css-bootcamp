@@ -1,18 +1,16 @@
-html {
-    font-size: 3vw;
-}
-
-html, body, form, input {
+html, body, form, input, textarea {
     padding: 0;
+    border: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+html {
+    font-size: 3vw;
 }
 
 body {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,13 +27,19 @@ form {
 div {
     display: flex;
     justify-content: space-between;
+    margin-top: .4rem;
+}
+
+label {
+    margin-right: .4rem;
 }
 
 form, input, textarea {
     font-size: 1rem;
 }
 
-textarea {
+input, textarea {
+    width: 12rem;
     border: 1px solid lightgrey;
 }
 
@@ -55,4 +59,3 @@ textarea {
 #submitobey:hover {
     background-color: #00C957;
 }
-

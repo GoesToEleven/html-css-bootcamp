@@ -1,16 +1,18 @@
+html {
+    font-size: 2vw;
+}
+
 html, body, form, input {
     padding: 0;
-    border: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html {
-    font-size: 3vw;
+html, body {
+    height: 100%;
 }
 
 body {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,26 +21,12 @@ body {
 form {
     border: 10px groove #00C957;
     padding: 20px;
+}
+
+label {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-div {
-    display: flex;
-    justify-content: space-between;
-}
-
-form, input {
-    font-size: 1rem;
-}
-
-input {
-    border: 2px solid darkgray;
-}
-
-#frmsubmit {
-    justify-content: flex-end;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 #submitobey {
