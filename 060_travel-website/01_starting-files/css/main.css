@@ -1,0 +1,71 @@
+#atf {
+    height: 100vh;
+    border: 10px solid hotpink;
+    /* arrange content */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    height: 2vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* arrange content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* format */
+    background-color: rgba(245, 245, 245, 0.86);
+    border-bottom: 1px solid gray;
+}
+
+#hero-img {
+    background-image: url("../images/adventure-lg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    flex-grow: 1;
+}
+
+#cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#logo, nav {
+    border: 2px solid hotpink;
+    width: 1vw;
+    height: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<form action="/" method="post">
+
+    <div>
+        <label for="firstname">First Name</label>
+        <input type="text" name="fname" id="firstname" required>
+    </div>
+
+    <div>
+        <label for="uemail">Email</label>
+        <input type="email" name="youemail" id="uemail" required>
+    </div>
+
+    <div>
+        <label for="urange">Satisfaction</label>
+        <input type="range" name="range" id="urange" min="1" max="10" value="9">
+    </div>
+
+    <div id="frmsubmit">
+        <input type="submit" name="submit" id="submitobey" value="onda button">
+    </div>
+
+
+</form>
+<h1></h1>
+
+<script>
+
+    var r = document.querySelector("#urange");
+    var out = document.querySelector("h1");
+
+    out.innerText = r.valueAsNumber;
+
+    r.addEventListener('input', function(){
+        out.innerText = r.valueAsNumber;
+    });
+
+</script>
+</body>
+</html>

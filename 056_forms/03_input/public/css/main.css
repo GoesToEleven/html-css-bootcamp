@@ -1,0 +1,75 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 3vw;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 10px groove #00C957;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form, input {
+    font-size: 1rem;
+}
+
+input {
+    padding: .1rem;
+}
+
+form > div {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* checkbox & radio button */
+input[type=checkbox],
+input[type=radio]{
+    width: .7rem;
+    height: .7rem;
+    margin: 0 .3rem;
+}
+
+form > div.frm-cbox {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
