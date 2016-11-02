@@ -5,6 +5,7 @@ html, body, img, div, h1 {
     box-sizing: border-box;
     color: white;
     font-family: 'Comfortaa', cursive;
+    font-size: .9vw;
 }
 
 body {
