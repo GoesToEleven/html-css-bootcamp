@@ -1,0 +1,28 @@
+html, body, h1, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#atf {
+    height: 100vh;
+    /*layout content*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("01.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 8rem;
+    text-shadow:
+            1px 1px 4px #000,
+            0 1px 4px #000,
+            0 -1px 4px #000,
+            -1px 0 4px #000;
+    color: #fff;
+}

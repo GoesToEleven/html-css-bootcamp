@@ -1,0 +1,66 @@
+html, body, img, div, h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f00;
+}
+
+img {
+    width: 100vh;
+}
+
+.title {
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title.top {
+    top: 2vw;
+}
+
+.title.bottom {
+    bottom: 2vw;
+}
+
+h1 {
+    position: relative;
+    font-size: 6rem;
+}
+
+.fade-in {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.fade-in.one {
+    /*animation-delay: 30ms;*/
+    animation-delay: 4200ms;
+    animation-duration: 1000ms;
+}
+
+.fade-in.two {
+    /*animation-delay: 47ms;*/
+    animation-delay: 5100ms;
+    animation-duration: 1500ms;
+}
+
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
