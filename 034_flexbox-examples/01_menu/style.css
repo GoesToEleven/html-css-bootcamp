@@ -17,9 +17,8 @@ a:hover {
 }
 
 /*
-NOTE: in the video
-this was a:last-child
-it should be this
+NOTE: in the video this was a:last-child
+it should be
 */
 li:last-child {
     border-bottom: none;
