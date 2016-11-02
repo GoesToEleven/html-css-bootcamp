@@ -20,6 +20,6 @@ a:hover {
     background: royalblue;
 }
 
-a:last-child {
+li:last-child {
     border-bottom: none;
 }

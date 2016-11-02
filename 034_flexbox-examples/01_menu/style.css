@@ -16,6 +16,12 @@ a:hover {
     background: royalblue;
 }
 
-a:last-child {
+/*
+NOTE: in the video
+this was a:last-child
+it should be this
+*/
+li:last-child {
     border-bottom: none;
+    // background-color: red;
 }

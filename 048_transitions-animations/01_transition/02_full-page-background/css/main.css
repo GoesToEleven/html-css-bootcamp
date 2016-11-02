@@ -135,7 +135,7 @@ footer nav a {
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
-footer nav a:last-child {
+footer nav li:last-child {
     border-bottom: none;
 }
 
