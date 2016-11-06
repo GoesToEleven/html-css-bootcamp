@@ -1,0 +1,21 @@
+html {
+    font-size: 10vw;
+}
+
+html, body, div, img {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#atf {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 50vw;
+}

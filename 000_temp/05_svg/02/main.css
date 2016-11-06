@@ -1,0 +1,42 @@
+html {
+    font-size: 10vw;
+}
+
+html, body, div, svg {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#atf {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid red;
+}
+
+.auto {
+    fill: red;
+    stroke: gold;
+    width: 70vh;
+    height: 70vh;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform: rotate(180deg);
+}
+
+@keyframes rotate {
+    0% {
+        fill: blue;
+        transform: rotate(0deg);
+    }
+    100% {
+        fill: red;
+        transform: rotate(360deg);
+    }
+}

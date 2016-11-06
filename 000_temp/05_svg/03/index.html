@@ -1,0 +1,56 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG Path</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div>
+<section>
+    <h1>M</h1>
+    <p>move to a point</p>
+
+    <h1>L</h1>
+    <p>draw a line to a point</p>
+
+    <h1>l</h1>
+    <p>draw a line from where you're at to a point</p>
+
+    <h1>V</h1>
+    <p>draw a vertical line to this y-coordinate</p>
+
+    <h1>v</h1>
+    <p>draw a vertical line from where you're at this distance</p>
+
+    <h1>H</h1>
+    <p>draw a horizontal line to this x-coordinate</p>
+
+    <h1>h</h1>
+    <p>draw a vertical line from where you're at this distance</p>
+
+    <h1>case</h1>
+    <p>uppercase - absolute</p>
+    <p>lowercase - relative</p>
+
+</section>
+
+<svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     width="800"
+     height="800">
+
+    // this moves horizontally to the 400 position on the x axis
+    <path d="M10 10 l100 150 H400" stroke="black" fill="none"/>
+    // this moves horizontally 400 pixels on the x axis
+    <path d="M10 100 l100 150 h400" stroke="black" fill="none"/>
+
+</svg>
+</div>
+
+<h1>To Read:
+    <br>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths" target="_blank">Paths</a>
+</h1>
+</body>
+</html>

@@ -1,0 +1,15 @@
+svg {
+    border: 1px solid black;
+}
+
+div {
+    width: 60%;
+    padding: 50px;
+    display: flex;
+    margin: 0 auto;
+    border: 10px groove orchid;
+}
+
+section {
+    margin: 30px;
+}
