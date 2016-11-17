@@ -1,0 +1,75 @@
+
+/*RESET*/
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*SIDEBAR FUNCTIONALITY*/
+
+input[type="checkbox"] {
+    /* the checkbox is the toggle */
+    /* however, we don't care to see the checkbox*/
+    display: none;
+}
+
+#sidebar {
+    /* the sidebar is off-screen */
+    position: fixed;
+    left: -50rem;
+}
+
+/* when the checkbox is checked */
+/* then select the sidebar and move it on screen */
+input[type="checkbox"]:checked ~ #sidebar {
+    left: 0;
+}
+
+
+/*FORMATTING*/
+
+label {
+    /* position */
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1;
+    /*arrange content*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*format*/
+    width: 5rem;
+    height: 2rem;
+    border: .3rem solid darkblue;
+    border-radius: 1rem;
+    background-color: #C4E8C8;
+    color: #3A5FCD;
+}
+
+label:hover {
+    background-color: #6DC990;
+}
+
+#sidebar {
+    top: 0;
+    /* formatting */
+    height: 100vh;
+    width: 20vw;
+    background-color: lightblue;
+    border-right: 2px solid blue;
+    /* transition */
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+
+ol {
+    margin-top: 4rem;
+}
+
+main {
+    margin-left: 25vw;
+}
