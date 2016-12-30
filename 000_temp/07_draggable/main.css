@@ -1,0 +1,25 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2rem;
+}
+
+div.section {
+    margin: 2rem 0;
+}
+
+.arrangeable-element {
+    height: 3vh;
+    border: 1px solid slategray;
+    background-color: lavender;
+    cursor: move;
+}
+
+.arrangeable-element.over {
+    border: 2px dashed red;
+}
