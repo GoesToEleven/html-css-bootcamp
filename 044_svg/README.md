@@ -9,3 +9,7 @@ For your SVG code to work in all browsers, you will need some server to serve yo
 Alternatively, you can try a different browser.
 
 At the time of this writing, the code ran fine in firefox without a server.
+
+You can use https://rawgit.com/ to serve your pages
+
+Push your code to github, then grab the url at github for your index.html page, then drop that into rawgit, then grab the url from rawgit for development, and then take a look at your work.
