@@ -13,3 +13,9 @@ At the time of this writing, the code ran fine in firefox without a server.
 You can use https://rawgit.com/ to serve your pages
 
 Push your code to github, then grab the url at github for your index.html page, then drop that into rawgit, then grab the url from rawgit for development, and then take a look at your work.
+
+# No Illustrator
+
+Here are instructions for using inkscape:
+
+[https://goo.gl/9spMEG](https://goo.gl/9spMEG)
