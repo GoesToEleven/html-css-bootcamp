@@ -14,7 +14,7 @@ You can use https://rawgit.com/ to serve your pages
 
 Push your code to github, then grab the url at github for your index.html page, then drop that into rawgit, then grab the url from rawgit for development, and then take a look at your work.
 
-# No Illustrator
+# No Adobe Illustrator?
 
 Here are instructions for using inkscape:
 
