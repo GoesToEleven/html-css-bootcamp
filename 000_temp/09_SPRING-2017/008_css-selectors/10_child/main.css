@@ -1,0 +1,15 @@
+html {
+    font-size: 50px;
+}
+
+/*li:nth-child(even) {*/
+    /*color: red;*/
+/*}*/
+
+/*li:nth-child(odd) {*/
+    /*color: red;*/
+/*}*/
+
+li:nth-child(4) {
+    color: red;
+}

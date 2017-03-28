@@ -1,0 +1,34 @@
+html {
+    font-size: 100px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: hotpink;
+}
+
+a:hover {
+    color: lawngreen;
+}
+
+a:active {
+    color: red;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+div:hover {
+    background-color: paleturquoise;
+}
+
+input:focus {
+    border: 4px solid black;
+}
+

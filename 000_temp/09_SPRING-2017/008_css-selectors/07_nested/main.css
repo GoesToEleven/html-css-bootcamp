@@ -1,0 +1,7 @@
+div p {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 5px solid dodgerblue;
+    background-color: yellow;
+}

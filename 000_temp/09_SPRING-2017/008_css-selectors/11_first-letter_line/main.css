@@ -1,0 +1,12 @@
+html {
+    font-size:30px;
+}
+
+p:first-letter {
+    font-size: 75px;
+}
+
+p:first-line {
+    color: red;
+    font-style: italic;
+}

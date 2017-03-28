@@ -1,0 +1,33 @@
+html {
+    font-size: 38px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+[target="_blank"] {
+    border: 2px solid red;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: hotpink;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: blue;
+}
+

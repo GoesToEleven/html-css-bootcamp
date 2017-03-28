@@ -1,0 +1,32 @@
+html {
+    font-size: 38px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    width: 60%;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+p::first-line {
+    color: red;
+    font-style: italic;
+}
+
+p::first-letter {
+    font-size: 60px;
+    padding: 5px;
+}
+
+
+

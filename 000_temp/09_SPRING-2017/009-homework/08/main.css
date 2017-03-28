@@ -1,0 +1,39 @@
+html {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+background-color: dodgerblue;
+}
+
+div {
+    width: 50%;
+    background-color: limegreen;
+    margin: 0 auto;
+}
+
+img {
+    width: 55%;
+    border: 20px groove gold;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 20px 0 0 0;
+}
+
+ #one {
+    color: blue;
+}
+
+ li:first-child {
+     color: white;
+ }
+
+ h1:nth-child(4) {
+     color: white;
+ }
