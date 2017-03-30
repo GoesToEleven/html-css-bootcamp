@@ -1,0 +1,44 @@
+html, body, main, div, p, h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#idx-content {
+    width: 50%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+img {
+    width: 60%;
+    align-self: center;
+    border: 20px groove gold;
+    border-radius: 50%;
+    margin: 35px 0;
+}
+
+h1, p {
+    margin: 0 25px;
+}
+
+p {
+    margin-bottom: 25px;
+}
