@@ -1,0 +1,59 @@
+html, body, h1, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /*primary axis, in this case column*/
+    justify-content: space-between;
+    /* cross axis, in this case row*/
+    align-items: center;
+    background-image: url("paradise.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+}
+
+header {
+    width: 100vw;
+    height: 5vh;
+    background-color: rgba(30,144,255,.2);
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.idx-hdr {
+    height: 75%;
+    /*background-color: dodgerblue;*/
+    font-size: 20px;
+    color: white;
+    margin: 0 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#idx-logo {
+    font-size: 32px;
+}

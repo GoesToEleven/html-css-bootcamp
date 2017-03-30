@@ -13,7 +13,7 @@ body {
     justify-content: center;
     /* cross axis, in this case column*/
     align-items: center;
-    background-image: url("paradise.jpeg");
+    background-image: url("paradise.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,3 +23,4 @@ h1 {
     color: white;
     font-size: 80px;
 }
+
