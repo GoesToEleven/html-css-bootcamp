@@ -1,0 +1,13 @@
+html, body, main, h1 {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}

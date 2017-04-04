@@ -1,0 +1,17 @@
+html {
+    font-size: 70px;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 900;
+}

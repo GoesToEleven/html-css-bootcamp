@@ -1,0 +1,49 @@
+html, body, header, main, h1, div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    font-size: 100px;
+}
+
+main {
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h1:nth-child(1) {
+    font-size: 400%;
+}
+
+h1:nth-child(2) {
+    font-size: 4em;
+}
+
+h1:nth-child(3) {
+    font-size: .8rem;
+}
+
+h1:nth-child(4) {
+    font-size: 80px;
+}
+
+h1:nth-child(5) {
+    font-size: 4.2vw;
+}
+
+
+

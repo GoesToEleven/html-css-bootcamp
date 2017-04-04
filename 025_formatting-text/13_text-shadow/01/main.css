@@ -6,6 +6,6 @@ html, body, h1 {
 
 h1 {
     font-size: 30rem;
-    text-shadow: 5px 5px 20px red;
+    text-shadow: 20px 5px 20px red;
     text-align: center;
 }
