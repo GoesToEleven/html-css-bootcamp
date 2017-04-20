@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+nav, section {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: none;
+}
+
+.menu-item {
+    border: none;
+}

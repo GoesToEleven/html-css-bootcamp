@@ -1,0 +1,35 @@
+html, body, main, nav, a, section, h1, p, h2 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border: 5px solid black;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgba(79,188,227,.5);
+}
+
+a:hover {
+    background-color: rgba(79,188,227,.8);
+}
+
+section {
+    width: 100%;
+    padding: 10px;
+}

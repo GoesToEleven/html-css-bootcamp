@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    /* formatting */
+    height: 500px;
+    border: 5px solid red;
+}
+
+div {
+    /* formatting */
+    width: 300px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+}
+
+#deviate {
+    align-self: flex-start;
+    /*flex-basis: 500px;*/
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#manga {
+    flex-shrink: 2;
+    flex-grow: 2;
+}
