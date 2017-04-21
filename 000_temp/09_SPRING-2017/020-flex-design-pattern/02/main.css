@@ -1,0 +1,17 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div {
+    min-height: 150px;
+    flex-basis: 100%;
+}

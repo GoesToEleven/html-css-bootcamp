@@ -1,0 +1,7 @@
+html {
+    font-size: 64px;
+}
+
+li:nth-child(even) {
+    color: red;
+}

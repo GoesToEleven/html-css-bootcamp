@@ -1,0 +1,15 @@
+#s01, #s02, #s03 {
+    flex-basis: 33.33%;
+}
+
+#s04 {
+    flex-basis: 60%;
+}
+
+#s05 {
+    flex-basis: 40%;
+}
+
+#s06 {
+    flex-basis: 100%;
+}

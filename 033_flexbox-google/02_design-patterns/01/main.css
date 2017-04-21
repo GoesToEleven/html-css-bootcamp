@@ -17,3 +17,14 @@ body {
     /* formatting */
     min-height: 150px;
 }
+
+/*
+
+#1
+flex-direction: row;
+flex-wrap: wrap;
+
+#2
+everything you want on one row should add up to width 100%
+
+*/

@@ -1,0 +1,23 @@
+@media (max-width:599px) {
+    h1 {
+        color: hotpink;
+    }
+}
+
+@media (min-width:600px) and (max-width:899px) {
+    h1 {
+        color: blue;
+    }
+}
+
+@media (min-width:900px) {
+    h1 {
+        color: red;
+    }
+}
+
+@media print {
+    h2 {
+        border: 1px dashed black;
+    }
+}

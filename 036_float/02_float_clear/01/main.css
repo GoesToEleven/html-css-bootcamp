@@ -5,6 +5,7 @@ div {
     height: 100px;
     margin: 1em;
     border: 2px solid green;
+    background-color: red;
 }
 
 section {
