@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    border: 5px solid mediumpurple;
+    width: 600px;
+    height: 300px;
+    overflow: auto;
+}
+
+#pic {
+    float: left;
+    margin: 10px;
+}

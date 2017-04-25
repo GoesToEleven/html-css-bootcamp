@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    background-color: hotpink;
+    box-shadow: 5px 5px 5px hotpink;
+}
+
+#cont {
+    position: relative;
+}
+
+#chil {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: floralwhite;
+}

@@ -1,0 +1,11 @@
+div {
+    border: 5px solid red;
+}
+
+img {
+    float: left;
+}
+
+#thisone {
+    clear: both;
+}

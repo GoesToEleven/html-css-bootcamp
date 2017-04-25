@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    border: 2px solid hotpink;
+    background-color: #0ebfe9;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+#mickey:hover {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
