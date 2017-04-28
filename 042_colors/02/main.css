@@ -1,0 +1,76 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    width: 9vh;
+    height: 9vh;
+    border: 1px solid crimson;
+    background-color: hsla(204, 76%, 100%, 1);
+    margin: 2px;
+}
+
+#s001 {
+    background-color: hsla(204, 76%, 100%, 1);
+}
+
+#s002 {
+    background-color: hsla(204, 76%, 90%, 1);
+}
+
+#s003 {
+    background-color: hsla(204, 76%, 80%, 1);
+}
+
+#s004 {
+    background-color: hsla(204, 76%, 70%, 1);
+}
+
+#s005 {
+    background-color: hsla(204, 76%, 60%, 1);
+}
+
+#s006 {
+    background-color: hsla(204, 76%, 50%, 1);
+}
+
+#s007 {
+    background-color: hsla(204, 76%, 40%, 1);
+}
+
+#s008 {
+    background-color: hsla(204, 76%, 30%, 1);
+}
+
+#s009 {
+    background-color: hsla(204, 76%, 20%, 1);
+}
+
+#s010 {
+    background-color: hsla(204, 76%, 10%, 1);
+}
+
+aside {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 350px;
+    height: 200px;
+    background-color: hsla(204, 76%, 80%, 1);
+    color: hsla(204, 76%, 20%, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 35% 0 0;
+}

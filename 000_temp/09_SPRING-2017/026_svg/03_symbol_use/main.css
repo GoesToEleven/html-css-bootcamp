@@ -1,0 +1,6 @@
+#svgcontainer {
+    border: 1px solid red;
+    fill: red;
+    /*stroke: black;*/
+    stroke-width: 5%;
+}
