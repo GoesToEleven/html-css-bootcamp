@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    position: relative;
+}
+
+div {
+    width: 10vw;
+    height: 200px;
+    border: 10px groove orchid;
+    position: absolute;
+    animation-name: wackabacka;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes wackabacka {
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 90vw;
+        border-radius: 100%;
+        background-color: #0ebfe9;
+    }
+}

@@ -1,0 +1,40 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
+
+body > div {
+    height: 10vw;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+div > div {
+    height: 5vw;
+    width: 5vw;
+    border: 1px solid black;
+    background-color: yellow;
+    background-image: url("../../../000_img/pup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body > div:hover > div {
+    transform: rotate(720deg);
+}
+
+body > div:hover {
+    width: 100vw;
+}
+

@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 10px groove orchid;
+    animation-name: wackabacka;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes wackabacka {
+    0%{
+        justify-content: flex-start;
+    }
+    100%{
+        justify-content: flex-end;
+    }
+}

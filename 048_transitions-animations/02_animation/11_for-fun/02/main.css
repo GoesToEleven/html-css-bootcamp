@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    width: 70vh;
+    height: 70vh;
+    background-color: deepskyblue;
+}
+
+div {
+    animation-name: wackabacka;
+    animation-timing-function: ease-in;
+    animation-duration: 950ms;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wackabacka {
+    0% {
+        background-color: deepskyblue;
+    }
+    100% {
+        background-color: gold;
+        border-radius: 100%;
+        transform: rotate(282deg);
+    }
+}
