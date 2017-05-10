@@ -1,0 +1,42 @@
+html, body, div, label {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.courseitem {
+    border: 1px solid black;
+}
+
+label {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label:hover {
+    cursor: pointer;
+    background-color: rgba(14, 191, 233, 0.34);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + div {
+    border: 1px solid gray;
+    overflow-y: hidden;
+    max-height: 0;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    background-color: rgba(0, 0, 255, 0.1);
+    color: white;
+}
+
+input[type="checkbox"]:checked + div  {
+    max-height: 1000px;
+    background-color: rgba(0, 0, 255, 0.9);
+}

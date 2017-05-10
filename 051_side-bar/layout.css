@@ -48,7 +48,7 @@ input[type="checkbox"] {
     transition-duration: 1s;
 }
 
-input[type="checkbox"]:checked ~ #sidebar {
+input[type="checkbox"]:checked + #sidebar {
     /* toggle */
     left: 0;
 }

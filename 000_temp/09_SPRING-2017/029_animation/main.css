@@ -1,0 +1,51 @@
+div {
+    width: 150px;
+    height: 150px;
+    border: 10px groove orangered;
+    background-color: lightgoldenrodyellow;
+
+    /*transition*/
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+
+     /*animation*/
+    animation-name: wackabacka;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-direction: alternate;
+
+    /* position to animate */
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+div:hover {
+    transform: rotate(277deg);
+    background-color: goldenrod;
+}
+
+@keyframes wackabacka {
+    0%{
+        top:0;
+        left:0;
+    }
+    25%{
+        top:0;
+        left:90vw;
+    }
+    50%{
+        top:80vh;
+        left:90vw;
+    }
+    75%{
+        top:80vh;
+        left:0;
+    }
+    100%{
+        top:0;
+        left:0;
+    }
+}

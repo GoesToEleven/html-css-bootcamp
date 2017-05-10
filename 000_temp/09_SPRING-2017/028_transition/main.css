@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 350px;
+    height: 350px;
+    border: 10px groove orangered;
+    background-color: lightgoldenrodyellow;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+}
+
+div:hover {
+    transform: rotate(277deg);
+    background-color: goldenrod;
+}
