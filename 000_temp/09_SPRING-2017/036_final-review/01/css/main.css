@@ -1,0 +1,41 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body > label[for="hdr-nav"] {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* begin - control show/hide of sidebar */
+body > input[type="checkbox"] {
+    display: none;
+}
+
+body > input#hdr-nav:checked + header {
+    left: 0;
+    color: red;
+}
+/* end - control show/hide of sidebar */
+
+body > header {
+    position: fixed;
+    top: 0;
+    left: -15rem;
+    width: 15rem;
+    height: 100vh;
+    border: 1px solid red;
+    background-color: mediumpurple;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 500ms;
+}
+
+header > h1 {
+    position: absolute;
+    top: 3rem;
+    font-family: 'Inknut Antiqua', serif;
+}
