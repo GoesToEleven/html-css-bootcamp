@@ -1,0 +1,52 @@
+body > label[for="hdr-nav"] {
+display: none;
+}
+
+body > header {
+    left: 0;
+    height: 7vh;
+    width: 100vw;
+    background-color: rgb(227, 81, 39);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body > header > nav {
+    position: static;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+}
+
+body > header > nav > a {
+    padding: 1rem 1.5rem;
+}
+
+body > header > nav > a:hover {
+    background-color: rgba(255, 255, 255, 0.79);
+}
+
+body > header > h1 {
+    display: block;
+    font-size: 2rem;
+    color: white;
+    padding-left: 2.5rem;
+}
+
+body > main {
+    justify-content: center;
+    background-image: url("../img/skate.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body > main > h1 {
+    display: none;
+}
+
+body > main > h2 {
+    font-size: 8rem;
+}

@@ -2,12 +2,22 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+/* BEGIN header and navigation */
+
 body > label[for="hdr-nav"] {
     position: fixed;
-    top: 1rem;
-    left: 1rem;
+    top: .7rem;
+    left: .7rem;
     cursor: pointer;
     z-index: 1;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+}
+
+body > label > .svg-plus {
+    fill:red;
+    font-size: 1.7rem;
 }
 
 /* begin - control show/hide of sidebar */
@@ -15,27 +25,88 @@ body > input[type="checkbox"] {
     display: none;
 }
 
-body > input#hdr-nav:checked + header {
-    left: 0;
-    color: red;
+body > input#hdr-nav:checked ~ header {
+      left: 0;
+  }
+
+body > input#hdr-nav:checked + label  {
+    transform: rotate(45deg);
+    left: 13rem;
 }
 /* end - control show/hide of sidebar */
 
 body > header {
     position: fixed;
     top: 0;
-    left: -15rem;
-    width: 15rem;
+    left: -18rem;
+    width: 17rem;
     height: 100vh;
-    border: 1px solid red;
-    background-color: mediumpurple;
+    border-right: 1px solid #6c6c6c;
+    background-color: rgba(233, 233, 233, 0.7);
     transition-property: all;
     transition-timing-function: ease;
     transition-duration: 500ms;
+    box-shadow: 1px 0 3px gray;
 }
 
 header > h1 {
+    display: none;
+}
+
+header > nav {
     position: absolute;
-    top: 3rem;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+header > nav > a {
+    display: flex;
+    width: 100%;
+    padding: 2rem 1.5rem;
+    font-size: 1.5rem;
+}
+
+header > nav > a:hover {
+    background-color: rgba(255, 0, 0, 0.25);
+}
+
+/* END header and navigation */
+/* BEGIN main */
+
+body > main {
+    /* layout */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    /* formatting */
+    background-image: linear-gradient(rgb(227, 81, 39), gray);
+    /* formatting font */
+    color: white;
+}
+
+body > main > h1 {
+    font-size: 1.2rem;
     font-family: 'Inknut Antiqua', serif;
+    padding-top: .7rem;
+}
+
+body > main > h2 {
+    font-size: 3rem;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+body > main > h3 {
+    font-size: .8rem;
+    font-weight: 400;
+    align-self: flex-end;
+    padding: 0 .5rem .5rem 0;
+    letter-spacing: .1rem;
 }
