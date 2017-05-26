@@ -1,0 +1,38 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 20vw;
+    height: 20vh;
+    border: 4px groove orangered;
+    background-color: coral;
+    border-radius: 50%;
+    opacity: 0;
+    animation-name: wackabacka;
+    animation-delay: 5s;
+    animation-duration: 1s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+}
+
+@keyframes wackabacka {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}

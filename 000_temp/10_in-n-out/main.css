@@ -37,11 +37,11 @@ h2 {
     border: 1px solid black;
 }
 
-#inout-text-01 {
+.inout-text {
     position: absolute;
-    top: -300px;
+    top: 300px;
     animation-name: inouter;
-    animation-duration: 6s;
+    animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
@@ -50,19 +50,24 @@ h2 {
 }
 
 @keyframes inouter {
-    20% {
+    10% {
         top: 0;
         opacity: 1.0;
     }
-    80% {
+    17.5% {
         top: 0;
         opacity: 1.0;
+    }
+    20% {
+        top: -300px;
+        opacity: 0;
     }
     100%{
         top: 300px;
     }
 }
 
-/*
-,#inout-text-02,#inout-text-03,#inout-text-04,#inout-text-05
-*/
+#inout-text-02{animation-delay: 4s;}
+#inout-text-03{animation-delay: 8s;}
+#inout-text-04{animation-delay: 12s;}
+#inout-text-05{animation-delay: 16s;}
