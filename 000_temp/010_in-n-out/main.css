@@ -1,0 +1,68 @@
+html, body, div, h1, h2 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*center content on page*/
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*box to contain text*/
+#inout-container {
+    /*format box*/
+    border: 1px solid black;
+    width: 70vw;
+    height: 30%;
+    /*position box content*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /*format text*/
+    font-size: 8rem;
+    /*hide text outside box*/
+    overflow: hidden;
+    /*allow item inside to position off of box*/
+    position: relative;
+}
+
+h2 {
+    border: 1px solid black;
+}
+
+#inout-text-01 {
+    position: absolute;
+    top: -300px;
+    animation-name: inouter;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    opacity: 0;
+}
+
+@keyframes inouter {
+    20% {
+        top: 0;
+        opacity: 1.0;
+    }
+    80% {
+        top: 0;
+        opacity: 1.0;
+    }
+    100%{
+        top: 300px;
+    }
+}
+
+/*
+,#inout-text-02,#inout-text-03,#inout-text-04,#inout-text-05
+*/
