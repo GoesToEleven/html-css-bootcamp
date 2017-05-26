@@ -17,7 +17,7 @@ body {
 /*box to contain text*/
 #inout-container {
     /*format box*/
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 70vw;
     height: 30%;
     /*position box content*/
@@ -34,7 +34,7 @@ body {
 }
 
 h2 {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .inout-text {
