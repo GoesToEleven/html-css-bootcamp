@@ -50,7 +50,7 @@ ls -la
 - now create a file
 
 ```
-nano &lt;somefile.txt&gt;
+nano <somefile.txt>;
 ```
 
 - now add that file to the git staging area
@@ -62,13 +62,13 @@ git add --all
 - now commit that file
 
 ```
-git commit -m "&lt;some message&gt;"
+git commit -m "<some message>"
 ```
 
 - now connect your LOCAL COMPUTER with GITHUB; this is a one time only operation; run each of these commands, on at a time; you will need to replace git@github.com:GoesToEleven/temp.git with your info
 
 ```
-git remote add origin &lt;git@github.com:GoesToEleven/temp.git&gt;
+git remote add origin <git@github.com:GoesToEleven/temp.git>
 git push -u origin master
 
 ```
@@ -78,7 +78,7 @@ git push -u origin master
 ```
 git status
 git add --all
-git commit -m "&lt;some message&gt;"
+git commit -m "<some message>"
 git push
 ```
 
