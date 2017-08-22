@@ -1,0 +1,46 @@
+html, body, main, header, div, span, h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid gray;
+    background-color: rgba(14, 191, 233, 0.25);
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+header > div > span {
+    padding: 1rem;
+}
+
+header > div:hover, header > div > span:hover {
+    color: darkblue;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("pier.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-size: 8vw;
+}
