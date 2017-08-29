@@ -1,0 +1,12 @@
+img {
+    width: 400px;
+    border: 10px dashed orange;
+}
+
+.line {
+    border-bottom: 1px solid crimson;
+}
+
+a {
+    font-size: 32px;
+}

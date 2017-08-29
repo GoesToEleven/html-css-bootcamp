@@ -12,7 +12,7 @@
 ## inline
 bad practice; don't do this
 
-# other html elements
+# more html elements
 
 ## hr
 horizontal rule
@@ -47,3 +47,7 @@ in css
 ```
 .cowboy
 ```
+
+# more html elements
+
+## br

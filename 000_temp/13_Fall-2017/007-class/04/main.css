@@ -1,0 +1,9 @@
+html, body, div, #northshore {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    color: blue;
+}

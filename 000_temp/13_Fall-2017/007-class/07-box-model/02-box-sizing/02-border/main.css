@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+div {
+    width: 400px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+#two {
+    border: 20px solid black;
+}
+
+#three {
+    border: 20px solid black;
+
+    /* restrict outward growth*/
+    box-sizing: border-box;
+}
