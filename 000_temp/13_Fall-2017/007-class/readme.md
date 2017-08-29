@@ -33,6 +33,14 @@ in css
 #cowgirl
 ```
 
+example:
+```
+#cowgirl {
+    height: 2px;
+    border-bottom: 2px solid red;
+}
+```
+
 ## class
 as many as you want per page
 in css
