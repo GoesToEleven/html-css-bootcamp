@@ -1,0 +1,27 @@
+/*
+
+rule set
+
+selector, selector {
+  declaration block
+}
+
+selector, selector {
+  declarations;
+  declarations;
+  declarations;
+  declarations;
+}
+selector, selector {
+  property: value;
+  property: value;
+  property: value;
+  property: value;
+  property: value;
+}
+
+*/
+
+h1, h2 {
+    color: yellowgreen;
+}

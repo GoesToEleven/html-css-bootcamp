@@ -1,0 +1,41 @@
+# css
+## link
+```
+<link rel="stylesheet" href="main.css">
+```
+
+## embed
+```
+<style></style>
+```
+
+## inline
+bad practice; don't do this
+
+# other html elements
+
+## hr
+horizontal rule
+better to use CSS for a line
+
+## div
+
+# html element attributes & values
+html elements can have attributes and values
+example: 
+```
+<div id="cowgirl"></div>
+```
+## id
+only one per page
+in css
+```
+#cowgirl
+```
+
+## class
+as many as you want per page
+in css
+```
+.cowboy
+```
