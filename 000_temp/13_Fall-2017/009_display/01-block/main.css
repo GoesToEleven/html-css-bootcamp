@@ -1,0 +1,21 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+div, p {
+    height: 100px;
+    width: 100px;
+    border: 5px solid red;
+    margin: 10px;
+}
+
+p {
+    border: 5px dotted blue;
+    display: inline-block;
+}
+
+img {
+    width: 100px;
+}
