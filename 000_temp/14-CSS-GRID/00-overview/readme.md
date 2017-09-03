@@ -41,7 +41,7 @@ dispaly: grid;
 ```
 ## grid line
 - any of the lines of the grid
-![01-grid-line.png]
+!(01-grid-line.png)
 
 ## track
 - a row or column
