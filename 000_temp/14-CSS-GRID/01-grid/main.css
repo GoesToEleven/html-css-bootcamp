@@ -1,0 +1,9 @@
+#container {
+    display: grid;
+}
+
+div {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}

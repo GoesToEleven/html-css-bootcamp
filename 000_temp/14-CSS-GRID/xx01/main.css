@@ -1,0 +1,17 @@
+#container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+@media (min-width: 36rem) {
+    #container {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+div {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
