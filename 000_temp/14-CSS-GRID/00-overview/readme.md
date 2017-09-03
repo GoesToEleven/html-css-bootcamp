@@ -14,8 +14,12 @@ A grid is a set of horizontal and vertical lines
 - To work with grid, you need a grid container
 - Create this with
 ```
-dispaly: grid;
+#container {
+    display: grid;
+}
+```
 
+```
 <main id="container">
     <div>A</div>
     <div>B</div>
