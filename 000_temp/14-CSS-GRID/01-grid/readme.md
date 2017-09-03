@@ -1,5 +1,5 @@
-# Container
+# firefox editor
 
-```
-display: grid;
-```
+Highlight grid elements in Firefox
+
+![firefox](firefox.png)
