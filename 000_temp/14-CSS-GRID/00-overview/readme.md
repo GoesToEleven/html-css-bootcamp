@@ -83,3 +83,34 @@ A grid is a set of horizontal and vertical lines
 - More than one item can be placed into a grid cell
 - areas can partially overlap
 
+# fr unit
+Tracks can be defined using any length unit. Grid also introduces an additional length unit to help us create flexible grid tracks. The new ```fr``` unit represents a fraction of the available space in the grid container. The next grid definition would create three equal width tracks that grow and shrink according to the available space.
+
+```
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+```
+
+```
+<main id="container">
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
+    <div>E</div>
+    <div>F</div>
+</main>
+```
+
+which is the same as
+
+
+```
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+```
