@@ -47,11 +47,19 @@ dispaly: grid;
 ## track
 - a row or column
 
+![grid line](02-grid-track.png)
+
 ## cell
 - a single cell in the grid
 
+![grid line](03-grid-cell.png)
+
 ## area
 - an area on the grid
+
+![grid line](04-grid-area.png)
+
+[source of images](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 
 ## Track
