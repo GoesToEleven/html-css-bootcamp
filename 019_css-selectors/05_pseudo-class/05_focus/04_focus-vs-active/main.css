@@ -1,0 +1,27 @@
+html, body, button {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    height: 125px;
+    background-color: cornflowerblue;
+    border: 4px groove orange;
+}
+
+button:focus {
+    background-color: darkblue;
+}
+
+button:active {
+    background-color: goldenrod;
+}
