@@ -5,8 +5,7 @@ html, body, p, div, section {
 }
 
 body {
-    height: 100vh;
-    font-size: 60px;
+    font-size: 30px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
