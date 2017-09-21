@@ -4,4 +4,5 @@ h1 {
     font-weight: normal;
     /* there are many different values to play with: */
     font-variant: small-caps;
+    /*font-variant: titling-caps;*/
 }

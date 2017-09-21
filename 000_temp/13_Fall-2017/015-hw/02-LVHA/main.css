@@ -1,0 +1,36 @@
+body {
+    padding: 100px;
+}
+
+a {
+    display: block;
+    font-size: 10rem;
+    margin: 100px 0;
+}
+
+a:link {
+    color: yellow;
+    /*background-color: yellow;*/
+}
+
+
+a:visited {
+    color: red;
+    /*background-color: red;*/
+}
+
+
+a:hover {
+    color: #0ebfe9;
+    /*background-color: #0ebfe9;*/
+}
+
+
+a:active {
+    color: blue;
+    /*background-color: blue;*/
+}
+
+[target="_blank"] {
+    border: 4px dashed blue;
+}

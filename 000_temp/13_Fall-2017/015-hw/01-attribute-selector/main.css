@@ -1,0 +1,13 @@
+body {
+    padding: 100px;
+}
+
+a {
+    display: block;
+    font-size: 10rem;
+    margin: 100px 0;
+}
+
+[target="_blank"] {
+    border: 4px dashed blue;
+}

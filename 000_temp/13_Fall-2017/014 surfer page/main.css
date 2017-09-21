@@ -1,0 +1,20 @@
+html, body, main, div, h1, p {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+main {
+    width: 75%;
+    border: 10px groove deepskyblue;
+    margin: 0 auto;
+    background-color: #0ebfe9;
+}
+
+main > img {
+    display: block;
+    border: 5px groove green;
+    border-radius: 50%;
+    width: 550px;
+    margin: 0 auto;
+}

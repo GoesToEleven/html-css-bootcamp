@@ -1,0 +1,22 @@
+img {
+    width: 200px;
+}
+
+div {
+    border: 1px solid hotpink;
+}
+
+#oof {
+    position: fixed;
+    top: 500px;
+    right: 400px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: yellow;
+    text-align: center;
+}
+
+li {
+    border: 1px solid crimson;
+}

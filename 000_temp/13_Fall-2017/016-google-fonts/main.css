@@ -1,0 +1,30 @@
+html, body, h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+html {
+    color: #ff6805;
+    font-family: 'Permanent Marker', cursive;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("skate.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 8vw;
+    width: 70vw;
+    text-align: center;
+    line-height: 130px;
+    text-shadow: 10px 10px 10px black;
+}
+
