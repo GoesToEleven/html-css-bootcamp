@@ -1,0 +1,19 @@
+html, body, header, div, main {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border: 4px solid hotpink;
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    justify-content: space-between;
+}
+
+div {
+    border: 2px solid blue;
+    height: 100px;
+}

@@ -1,0 +1,41 @@
+html, body, header, div, main {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(0, 250, 255, 0.41);
+    border-bottom: 1px solid darkolivegreen;
+}
+
+header > div {
+    padding: 10px 30px;
+    font-size: 22px;
+    color: white;
+}
+
+main {
+    background-image: url("../pier.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 100vh;
+}
