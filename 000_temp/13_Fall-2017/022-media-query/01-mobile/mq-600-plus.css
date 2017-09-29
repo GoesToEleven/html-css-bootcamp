@@ -1,0 +1,28 @@
+main {
+    background-image: url("bg-desktop-surf.jpeg");
+}
+
+#links {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav > ul {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+nav > ul > li {
+    width: auto;
+    /*height: 35px;*/
+    padding: 0 30px;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,9 @@
+div {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 40px;
+    background-color: hotpink;
+    border-top: red;
+}

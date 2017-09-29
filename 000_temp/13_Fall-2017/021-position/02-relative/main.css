@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 30vh;
+    width: 30vh;
+    border: 5px solid red;
+    background-color: pink;
+}
+
+#two {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}

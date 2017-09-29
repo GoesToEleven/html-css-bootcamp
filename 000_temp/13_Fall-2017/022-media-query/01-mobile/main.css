@@ -1,0 +1,44 @@
+html, body, main, nav, ul, li {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background-image: url("bg-mobile-surf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 8vw;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+nav > ul > li {
+    width: 100vw;
+    height: 35px;
+    background-color: #0ebfe9;
+    border-bottom: 1px solid darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+nav > ul > li:last-child {
+    border-bottom: none;
+}

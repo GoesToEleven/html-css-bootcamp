@@ -1,0 +1,15 @@
+#one {
+    border: 5px solid red;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+#two {
+    border: 5px solid blue;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
