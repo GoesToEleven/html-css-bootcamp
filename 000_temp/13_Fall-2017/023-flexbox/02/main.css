@@ -1,0 +1,43 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div {
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+#s01 {
+    background-color: blue;
+}
+
+#s02 {
+    background-color: #ff3a35;
+}
+
+#s03 {
+    background-color: #55ff61;
+}
+
+#s04 {
+    background-color: #54ceff;
+}
+
+#s05 {
+    background-color: #fff72f;
+}

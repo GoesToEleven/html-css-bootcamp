@@ -14,8 +14,8 @@ body {
 }
 
 /*div p {*/
-/*div > p {*/
+div > p {
 /*div ~ p {*/
-div + p {
+/*div + p {*/
     color: red;
 }

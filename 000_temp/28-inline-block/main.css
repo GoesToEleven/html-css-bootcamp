@@ -1,0 +1,14 @@
+html, body, section {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: inline-block;
+    width: 33.33%;
+    background-color: #7fd2ff;
+    border: 1px solid black;
+    height: 100px;
+}

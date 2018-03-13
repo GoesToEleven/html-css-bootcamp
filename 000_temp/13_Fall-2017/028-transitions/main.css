@@ -1,0 +1,13 @@
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+div:hover {
+    background-color: #0ebfe9;
+}

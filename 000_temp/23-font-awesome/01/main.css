@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+nav > a.menu-main-as {
+    width: 15vw;
+    height: 5vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    border: 1px solid black;
+    background-color: #9ef8ff;
+    text-decoration: none;
+    /* formatting */
+    font-size: 2rem;
+    color: #630b8c;
+}
+
+nav > a.menu-main-as:hover {
+    background-color: #7fd2ff;
+}

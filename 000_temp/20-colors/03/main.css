@@ -1,0 +1,33 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    /*flex-grow: 1;*/
+    /*width: 100vw;*/
+    height: 20vh;
+}
+
+#s1 {
+    background-color: hsla(100, 100%, 50%, .9)
+}
+
+#s2 {
+    background-color: hsla(220, 100%, 50%, .9)
+}
+
+#s3 {
+    background-color: hsla(220, 50%, 70%, .9)
+}
+
+#s4 {
+    background-color: hsla(340, 100%, 50%, .9)
+}
+
+#s5 {
+    background-color: hsla(340, 50%, 70%, .9)
+}
+

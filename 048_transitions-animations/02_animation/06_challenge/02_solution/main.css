@@ -27,7 +27,6 @@ body {
 }
 
 p {
-    font-size: 1rem;
     animation-name: grow-text;
     animation-duration: 4s;
     animation-iteration-count: infinite;

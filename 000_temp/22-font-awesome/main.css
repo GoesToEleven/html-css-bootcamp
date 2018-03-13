@@ -1,0 +1,22 @@
+html, body, span {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cam {
+    color: deepskyblue;
+    font-size: 500px;
+}
+
+#cam:hover {
+    color: coral;
+}

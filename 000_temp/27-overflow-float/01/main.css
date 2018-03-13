@@ -1,0 +1,9 @@
+div {
+    border: 1px solid black;
+    overflow: auto;
+}
+
+img {
+    height: 200px;
+    float: left;
+}

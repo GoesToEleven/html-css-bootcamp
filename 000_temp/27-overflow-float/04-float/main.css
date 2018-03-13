@@ -1,0 +1,22 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cowboy {
+    float: left;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#wackabacka {
+    clear: both;
+    width: 100%;
+}

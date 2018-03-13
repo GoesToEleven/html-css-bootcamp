@@ -1,0 +1,34 @@
+* {
+    margin: 20px 0;
+}
+
+header {
+    height: 5vh;
+    border: 1px solid red;
+    background-color: gray;
+
+}
+
+nav {
+    height: 50vh;
+    border: 1px solid red;
+    float: left;
+    width: 24%;
+    background-color: gray;
+
+}
+
+main {
+    height: 50vh;
+    border: 1px solid red;
+    float: right;
+    width: 74%;
+    background-color: gray;
+}
+
+footer {
+    height: 5vh;
+    border: 1px solid red;
+    clear: both;
+    background-color: gray;
+}

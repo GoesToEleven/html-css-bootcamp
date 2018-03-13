@@ -1,0 +1,28 @@
+html, body, header, section, aside, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, section, aside, footer {
+    border: 1px solid black;
+    margin: 10px;
+    height: 200px;
+    background-color: #7fd2ff;
+}
+
+section {
+    float: left;
+    width: 33%;
+}
+
+aside {
+    float: right;
+    width: 60%;
+}
+
+footer {
+    clear: both;
+}
+

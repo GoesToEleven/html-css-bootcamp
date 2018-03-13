@@ -31,7 +31,7 @@ div > div {
 }
 
 body > div:hover > div {
-    transform: rotate(720deg);
+    transform: rotate(180deg);
 }
 
 body > div:hover {
