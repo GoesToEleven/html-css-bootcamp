@@ -1,0 +1,22 @@
+html, body, p, div, section {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*p {*/
+/*div p {*/
+/*div > p {*/
+/*div ~ p {*/
+div + p {
+    color: red;
+}

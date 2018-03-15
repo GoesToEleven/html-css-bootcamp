@@ -1,0 +1,5 @@
+/* don't use * in production - bad code */
+
+* {
+    color: blue;
+}

@@ -1,0 +1,22 @@
+body {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* order matters */
+/* Link Visited Hover Active */
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}

@@ -1,0 +1,74 @@
+/* DO NOT TRY TO UNDERSTAND ALL OF THIS CODE*/
+/* This code is here to (1) illustrate the :hover and :active pseudo-classes*/
+/* and (2) to show you what you will know how to do soon. */
+/* Throughout this course, I will explain all of the code on this page. */
+/* By the end of this course, you will understand all of the code on this page */
+/* and will be able to create pages like this one. */
+
+html {
+    font-size: 1vw;
+}
+
+html, body, form, label, input {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkgray;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* DO NOT TRY TO UNDERSTAND ALL OF THIS CODE*/
+/* This code is here to (1) illustrate the :hover and :active pseudo-classes*/
+/* and (2) to show you what you will know how to do soon. */
+/* Throughout this course, I will explain all of the code on this page. */
+/* By the end of this course, you will understand all of the code on this page */
+/* and will be able to create pages like this one. */
+
+input {
+    font-size: 4rem;
+    margin-top: 4px;
+    border: 1px solid darkgray;
+}
+
+[type=submit] {
+    margin-top: 10px;
+    border: 1px solid darkgray;
+}
+
+[type=submit]:hover {
+    background-color: #00FF00;
+}
+
+
+[type=submit]:focus {
+    background-color: cornflowerblue;
+}
+
+input:required {
+    border: 1px solid red;
+    background-color: rgba(255, 182, 193, 0.13);
+}
