@@ -1,0 +1,23 @@
+div {
+    width: 150px;
+    height: 150px;
+    border: 4px groove orangered;
+    display: inline-block;
+    border-radius: 25%
+}
+
+.s1 {
+    background-color: red;
+}
+
+.s2 {
+    background-color: blue;
+}
+
+.s3 {
+    background-color: green;
+}
+
+.s4 {
+    background-color: yellow;
+}

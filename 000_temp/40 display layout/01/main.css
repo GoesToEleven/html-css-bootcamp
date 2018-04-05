@@ -1,0 +1,26 @@
+html, body, section, nav, ul, li, a, main {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 50%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+nav {
+    width: 25%;
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    width: 75%;
+    display: inline-block;
+    border: 1px solid black;
+}

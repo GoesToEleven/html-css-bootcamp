@@ -1,0 +1,33 @@
+html, body, div, h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#atf {
+    height: 100vh;
+    background-image: url("../../../pier.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*
+font-style
+font-variant
+font-weight
+font-size
+line-height
+font-family
+*/
+
+h1 {
+    cursor: pointer;
+    /*margin: 0 auto;*/
+    text-align: center;
+    border: 10px solid red;
+    color: whitesmoke;
+    font: small-caps 10rem/1 'Yatra One', cursive;
+}

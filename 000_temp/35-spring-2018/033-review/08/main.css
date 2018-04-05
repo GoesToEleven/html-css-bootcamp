@@ -1,0 +1,13 @@
+body {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h1, s, del {
+    font: 1rem sans-serif;
+}
+
+
+#s1 {
+    text-decoration: line-through;
+}

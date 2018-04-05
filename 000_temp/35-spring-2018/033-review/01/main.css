@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+}
+
+#cowboy {
+    background-color: tomato;
+    border: 20px groove red;
+
+    /*TRBL*/
+    /*border-radius: 15%;*/
+
+    /* TB RL*/
+    /*border-radius: 5% 40%;*/
+
+    /*T R B L*/
+    border-radius: 5% 40% 0 10%;
+}
+
+.manytings {
+    background-color: powderblue;
+    border: 20px groove blue;
+    border-radius: 50%;
+}

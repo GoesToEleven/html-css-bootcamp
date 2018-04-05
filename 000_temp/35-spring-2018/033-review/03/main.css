@@ -1,0 +1,18 @@
+body {
+    width: 60%;
+    margin: 0 auto;
+}
+
+div {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 2rem;
+}
+
+/*section div {*/
+/*section > div {*/
+/*section + div {*/
+section ~ div {
+    color: red;
+}

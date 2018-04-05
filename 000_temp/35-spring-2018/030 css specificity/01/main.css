@@ -1,0 +1,34 @@
+/* 1 */
+h1 {
+    color: blue;
+}
+
+/* 2 */
+div > h1 {
+    color: green;
+}
+
+/* 4 */
+html body div > h1 {
+    color: fuchsia;
+}
+
+/* 2 */
+div h1 {
+    color: red;
+}
+
+/* 100 */
+#wackabacka {
+    color: turquoise;
+}
+
+/* 10 */
+.arooga {
+    color: pink;
+}
+
+/* 1 */
+h1 {
+    color: orange;
+}

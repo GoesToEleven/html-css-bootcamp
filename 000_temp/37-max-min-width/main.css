@@ -1,0 +1,6 @@
+div {
+    border: 2px solid black;
+    max-width: 500px;
+    height: 200px;
+    background-color: gainsboro;
+}

@@ -1,0 +1,46 @@
+html, body, section, nav, ul, li, a, main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 50%;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+nav {
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+ul {
+    font-size: 2rem;
+    list-style-type: none;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+li {
+    display: inline-block;
+    border-radius: 50px;
+    margin: 0 20px;
+}
+
+a {
+    padding: 10px;
+    /*border: 2px solid red;*/
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+li:hover {
+    background-color: tomato;
+}
+
+main {
+    border: 1px solid black;
+}

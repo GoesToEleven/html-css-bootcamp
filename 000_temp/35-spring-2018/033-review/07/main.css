@@ -1,0 +1,9 @@
+body {
+    width: 20%;
+    margin: 0 auto;
+}
+
+div {
+    font-size: 10rem;
+    text-shadow: 40px 3px 20px gray;
+}

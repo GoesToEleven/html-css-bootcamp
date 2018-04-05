@@ -1,0 +1,14 @@
+body {
+    font-size: 1.6rem;
+    max-width: 60%;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+
+/*div p {*/
+/*div > p {*/
+/*div ~ p {*/
+div + p {
+    color: red;
+}

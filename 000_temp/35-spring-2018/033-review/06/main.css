@@ -1,0 +1,18 @@
+
+div {
+    font-size: 32px;
+}
+
+
+/*
+font-style
+font-variant
+font-weight
+font-size
+line-height
+font-family
+*/
+
+p {
+font: oblique 100 5rem/1 'Roboto', sans-serif;
+}

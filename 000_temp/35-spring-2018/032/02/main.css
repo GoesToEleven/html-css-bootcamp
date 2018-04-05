@@ -1,0 +1,19 @@
+div {
+    width: 400px;
+    height: 400px;
+    /*border: 1px solid red;*/
+    border-width: 30px;
+    border-style: groove;
+    border-color: red;
+
+    /* trbl */
+    /*border-radius: 50%;*/
+
+    /*t r b l*/
+    /*border-radius: 5% 10% 25% 50%;*/
+
+    /*tb rl*/
+    border-radius: 5% 50%;
+
+    background-color: lemonchiffon;
+}

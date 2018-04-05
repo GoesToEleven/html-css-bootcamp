@@ -1,0 +1,16 @@
+div {
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+}
+
+p {
+    border: 2px solid orange;
+}
+
+div, p {
+    padding: 50px;
+    border: 20px solid red;
+    box-sizing: border-box;
+}
+

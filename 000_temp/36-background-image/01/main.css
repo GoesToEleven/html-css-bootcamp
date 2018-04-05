@@ -1,0 +1,11 @@
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px groove black;
+    margin: 0 auto;
+    background-image: url("../../../dog.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

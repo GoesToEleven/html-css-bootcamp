@@ -1,0 +1,14 @@
+body {
+    border: 2px solid red;
+    height: 100vh;
+    width: 50%;
+}
+
+div {
+    width: 30%;
+    height: 30px;
+    background-color: yellowgreen;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
