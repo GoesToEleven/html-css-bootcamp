@@ -1,0 +1,51 @@
+html, body, header, div, aside, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+body {
+    height: 100vh;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#s1 {
+    height: 200px;
+    flex-basis: 100%;
+    background-color: #0ebfe9;
+}
+
+#s2 {
+    height: 200px;
+    flex-basis: 100%;
+    background-color: palegreen;
+}
+
+#s3 {
+    height: 200px;
+    flex-basis: 100%;
+    background-color: green;
+}
+
+#s4 {
+    height: 200px;
+    flex-basis: 100%;
+    background-color: red;
+}
+
+#s5 {
+    height: 200px;
+    flex-basis: 100%;
+    background-color: yellow;
+}

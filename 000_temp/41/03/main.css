@@ -1,0 +1,41 @@
+html, body, main {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+body {
+    background-color: deepskyblue;
+}
+
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: lawngreen;
+}
+
+div {
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    border: 10px groove orange;
+    background-image: url("../../dog.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+
+#s1 {
+    color: blue;
+}
+
+#s2 {
+    color: red;
+}

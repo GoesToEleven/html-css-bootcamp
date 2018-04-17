@@ -1,0 +1,18 @@
+section {
+    height: 90vh;
+}
+
+nav {
+    order: 1;
+    flex-basis: 20%;
+    align-items: flex-start;
+    height: 100%;
+}
+
+main {
+    flex-basis: 80%;
+    background-image: url("../../pier.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

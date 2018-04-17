@@ -1,0 +1,48 @@
+html, body, section, nav, main, ul, li {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+section {
+    height: 100vh;
+    border: 4px groove orangered;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav {
+    height: 10%;
+    flex-basis: 100%;
+    background-color: #9ef8ff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 90%;
+    flex-basis: 100%;
+    background-color: violet;
+}
+
+ul {
+    flex-basis: 60%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:hover {
+    color: red;
+    cursor: pointer;
+}

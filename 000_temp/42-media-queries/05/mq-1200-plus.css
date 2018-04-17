@@ -1,0 +1,27 @@
+nav {
+    height: 100%;
+    flex-basis: 20%;
+    /*border: 10px solid red;*/
+}
+
+main {
+    height: 100%;
+    flex-basis: 80%;
+    background-image: url("../../pier.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ul {
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*border: 10px solid black;*/
+    height: 100%;
+    padding: 40px 0;
+}
+
+li {
+    padding: 20px 0;
+}

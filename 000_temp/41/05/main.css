@@ -1,0 +1,115 @@
+html, body, main, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: tomato;
+    border-radius: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font: 2rem sans-serif;
+}
+
+main {
+    height: 100vh;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-flow: row nowrap;*/
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+
+#s01 {
+    order: 1;
+}
+
+#s02 {
+    order: 2;
+}
+
+#s03 {
+    order: 3;
+}
+
+#s04 {
+    order: 4;
+}
+
+#s05 {
+    order: 5;
+}
+
+#s06 {
+    order: 6;
+}
+
+#s07 {
+    order: 7;
+}
+
+#s08 {
+    order: 8;
+}
+
+#s09 {
+    order: 9;
+}
+
+#s10 {
+    order: 10;
+}
+
+#s11 {
+    order: 11;
+}
+
+#s12 {
+    order: 12;
+}
+
+#s13 {
+    order: 13;
+}
+
+#s14 {
+    order: 14;
+}
+
+#s15 {
+    order: -5;
+}
+
+#s16 {
+    order: -4;
+}
+
+#s17 {
+    order: -3;
+}
+
+#s18 {
+    order: -2;
+}
+
+#s19 {
+    order: -1;
+}
+
+#s20{
+    order: 0;
+    background-color: gold;
+}

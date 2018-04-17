@@ -1,0 +1,58 @@
+html, body, main, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+main {
+    height: 100vh;
+    border: 3px dashed red;
+    /* flex container */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+div {
+    height: 200px;
+    border: 1px solid black;
+    /* flex item */
+    flex-grow: 1;
+    flex-basis: 200px;
+    /* flex container */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font: 900 2rem sans-serif;
+}
+
+#s1 {
+    flex-basis: 100%;
+    background-color: tomato;
+}
+
+#s2 {
+    flex-basis: 60%;
+    background-color: powderblue;
+}
+
+#s3 {
+    flex-basis: 40%;
+    background-color: palegreen;
+}
+
+#s4 {
+    background-color: yellow;
+}
+
+#s5 {
+    background-color: mediumpurple;
+}

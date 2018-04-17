@@ -1,0 +1,50 @@
+html, body, section, div {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+main {
+    width: 700px;
+    /*height: 300px;*/
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+section {
+    /*width: 200px;*/
+    /*height: 300px;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 1;
+}
+#uno {
+    flex-basis: 27%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#dos {
+    flex-basis: 70%;
+}
+div {
+    width: 200px;
+    height: 150px;
+}
+.c1 {
+    flex-basis: 100%;
+    background-color: darkblue;
+}
+.c2 {
+    flex-basis: 100%;
+    background-color: blue;
+}
+.c3 {
+    flex-basis: 100%;
+    background-color: skyblue;
+}

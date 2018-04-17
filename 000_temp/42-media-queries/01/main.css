@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+}
+
+@media (min-width: 600px) {
+    h1 {
+        color: red;
+    }
+}
+
+@media print {
+    * {
+        color: black;
+        border: 1px dashed red;
+    }
+}
