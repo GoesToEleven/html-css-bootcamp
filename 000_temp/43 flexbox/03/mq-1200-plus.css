@@ -1,0 +1,18 @@
+main.chi {
+    order: 2;
+    flex-basis: 70%;
+}
+
+aside#s1 {
+    order: 1;
+    flex-basis: 15%;
+}
+
+aside#s2 {
+    order: 3;
+    flex-basis: 15%;
+}
+
+footer.chi   {
+    order: 4;
+}

@@ -1,0 +1,42 @@
+html, body, header, main, aside, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.chi {
+    height: 80px;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: red;
+}
+
+main {
+    background-color: dodgerblue;
+}
+
+aside#s1 {
+    background-color: gold;
+}
+
+aside#s2 {
+    background-color: pink;
+}
+
+footer {
+    background-color: limegreen;
+}
