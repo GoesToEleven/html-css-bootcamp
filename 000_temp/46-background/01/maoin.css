@@ -1,0 +1,25 @@
+html, body, main, ul, li {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+#atf {
+    height: 100vh;
+    border: 5px solid red;
+    background-image: url("../../pier.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font: 15rem sans-serif;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}

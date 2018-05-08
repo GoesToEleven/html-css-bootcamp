@@ -1,0 +1,38 @@
+html, body, header, div, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+header, footer {
+    height: 200px;
+    border: 10px solid blue;
+}
+
+header {
+    background-color: #00FF00;
+}
+
+footer {
+    background-color: #0ebfe9;
+    clear: left;
+}
+
+div {
+    height: 250px;
+    border: 5px solid red;
+}
+
+#left {
+    width: 20%;
+    float: left;
+}
+
+#right {
+    width: 80%;
+    float: left;
+}
+

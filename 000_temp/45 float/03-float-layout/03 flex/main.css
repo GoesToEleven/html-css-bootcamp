@@ -1,0 +1,42 @@
+html, body, header, div, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+header {
+    height: 200px;
+    border: 10px solid blue;
+    background-color: #FFD700;
+}
+
+main {
+    border: 10px solid green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer {
+    height: 200px;
+    border: 10px solid red;
+    background-color: #630b8c;
+}
+
+div {
+    height: 300px;
+    border: 5px solid black;
+}
+
+#left {
+    background-color: #7fd2ff;
+    flex-basis: 20%;
+}
+
+#right {
+    background-color: #00C957;
+    flex-basis: 80%;
+}

@@ -17,7 +17,7 @@ div {
     /* comment out position: relative */
     /* absolute is positioned off html element */
     position: relative;
-    /*top: 100px;*/
+    top: 100px;
     /* formatting */
     width: 600px;
     height: 400px;

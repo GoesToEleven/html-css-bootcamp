@@ -1,0 +1,47 @@
+div {
+    border: 2px solid red;
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#one {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+#three {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+#five {
+    width: 500px;
+    height: 500px;
+    background-color:transparent;
+    border: 10px dashed black;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+#six {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+html {
+    border: 5px solid blue;
+}
+
+body {
+    border: 5px solid yellow;
+}

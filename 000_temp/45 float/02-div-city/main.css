@@ -1,0 +1,17 @@
+div {
+    height: 150px;
+    border: 2px solid black;
+    font: 2rem sans-serif;
+    margin: 10px;
+}
+
+.group {
+    width: 150px;
+    float: left;
+    background-color: #00FF00;
+}
+
+#foot {
+    background-color: blue;
+    clear: left;
+}

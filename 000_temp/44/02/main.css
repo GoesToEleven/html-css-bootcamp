@@ -1,0 +1,13 @@
+header {
+    border: 10px solid red;
+    height: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+body {
+    border: 10px solid yellow;
+}
