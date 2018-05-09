@@ -1,0 +1,32 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 300px;
+    width: 300px;
+    background-color: #00FF00;
+    border: 10px solid deepskyblue;
+    border-radius: 50%;
+    animation-name: wackabacka;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wackabacka {
+    0% {background-color: #00FF00;}
+    50% {background-color: deepskyblue;}
+}

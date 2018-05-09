@@ -1,0 +1,32 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 300px;
+    width: 100vw;
+    background-color: #00FF00;
+    border: 10px solid deepskyblue;
+    border-radius: 50%;
+    /*transition-property: width;*/
+    /*transition-delay: 250ms;*/
+    /*transition-duration: 2s;*/
+    /*transition-timing-function: ease-out;*/
+    transition: width 2s ease-out 250ms;
+}
+
+div:hover {
+    width: 300px;
+}
