@@ -1,0 +1,63 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+body {
+    height: 100vh;
+}
+
+div {
+    position: fixed;
+    top: 45vh;
+    left: 45vw;
+    width: 10vw;
+    height: 10vh;
+    background-color: #9ef8ff;
+    border: 5px solid dodgerblue;
+    border-radius: 100%;
+    animation-name: wackabacka;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 10s;
+}
+
+@keyframes wackabacka {
+    10% {
+        background-color: cornflowerblue;
+        width: 100px;
+        height: 100px;
+    }
+    20%{left: 90vw;}
+    30%{top: 0;}
+    40%{left: 0;}
+    50%{top: 90vh;}
+    60%{left: 90vw;}
+    70%{top:0;left:0;}
+    80%{top:90vh;}
+    90% {
+        top: 0;
+        left: 90vw;
+        width: 600px;
+        height: 600px;
+        background-color: #9ef8ff;
+    }
+}
+
+@keyframes wackabacka2 {
+    20%{justify-content: flex-end;}
+    30%{align-items: flex-end;}
+    40%{align-items: flex-start}
+    50%{justify-content: flex-end}
+    60%{align-items: flex-end}
+    70%{justify-content: flex-start;align-items: flex-start;}
+    80%{justify-content: flex-end;}
+    90%{
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+}

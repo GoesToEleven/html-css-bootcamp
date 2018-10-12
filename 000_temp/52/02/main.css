@@ -1,0 +1,34 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 600px;
+    height: 600px;
+    background-color: #9ef8ff;
+    border: 5px solid dodgerblue;
+    border-radius: 100%;
+    transition-property: all;
+    transition-delay: 100ms;
+    transition-timing-function: ease;
+    transition-duration: 1500ms;
+}
+
+div:hover {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+}
+
