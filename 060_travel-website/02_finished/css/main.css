@@ -220,14 +220,14 @@ header {
 
 .btf-articles h3 {
     /* font format */
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2.4rem;
     font-weight: 400;
 }
 
 .btf-articles p {
     /* font format */
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
 }
